@@ -1,0 +1,11 @@
+{
+    "extends": ["../tslint.json", "tslint-react"],
+    "rules": {
+      "jsx-boolean-value": [true, "never"],
+      "jsx-no-multiline-js": false,
+      "jsx-use-translation-function": [true, "allow-punctuation"],
+      "jsx-wrap-multiline": false,
+      "no-shadowed-variable": false
+    }
+  }
+  

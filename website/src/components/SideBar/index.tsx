@@ -1,14 +1,14 @@
-import Drawer from "@material-ui/core/Drawer";
-import List from "@material-ui/core/List";
-import { Theme, withStyles, WithStyles } from "@material-ui/core/styles";
-import React, { useState } from "react";
+import Drawer from '@material-ui/core/Drawer';
+import List from '@material-ui/core/List';
+import { Theme, withStyles, WithStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
+import React, { useState } from 'react';
 
-import Translate from "../../components/Translation";
-import { Tab } from "../../redux/reducers/currentPageMeta";
-import ListTab from "../ListTab";
-import { Divider, AppBar, Toolbar, Typography, IconButton } from "@material-ui/core";
-import classNames from "classnames";
+import { AppBar, Divider, IconButton, Toolbar, Typography } from '@material-ui/core';
+import classNames from 'classnames';
+import Translate from '../../components/Translation';
+import { Tab } from '../../redux/reducers/currentPageMeta';
+import ListTab from '../ListTab';
 
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
@@ -31,7 +31,7 @@ const styles = (theme: Theme) => ({
       display: 'none',
     },
   },
-  toolbar: theme.mixins.toolbar,  
+  toolbar: theme.mixins.toolbar,
   drawer: {
     width: `${drawerWidth}px`,
     flexShrink: 0
@@ -118,14 +118,14 @@ export const SideBar = ({ classes, active }: Props) => {
       <Divider />
       <List component="nav" disablePadding>
         <ListTab
-          selected={active === "Home"}
+          selected={active === 'Home'}
           link="/"
-          text={<Translate message="component.sideBar.home.label" />}
+          text={<Translate message="components.sideBar.home.label" />}
         />
         <ListTab
-          selected={active === "Home"}
+          selected={active === 'Home'}
           link="/"
-          text={<Translate message="component.sideBar.home.label" />}
+          text={<Translate message="components.sideBar.home.label" />}
         />
       </List>
     </Drawer>

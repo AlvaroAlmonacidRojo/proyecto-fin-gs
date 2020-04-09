@@ -14,7 +14,10 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "es5"
+    "pretty": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "ES2018"
   },
   "include": ["src"],
   "references": []

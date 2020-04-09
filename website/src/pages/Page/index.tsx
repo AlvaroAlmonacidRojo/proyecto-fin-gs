@@ -11,7 +11,7 @@ interface ComponentProps {
 type Props = ComponentProps;
 
 const Page = ({ children }: Props) => {
-    return <main>{children}</main>
-}
+    return <main>{children}</main>;
+};
 
 export default Page;

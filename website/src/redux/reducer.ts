@@ -1,8 +1,8 @@
-import { AnyAction, combineReducers, Reducer } from "redux";
-import { ThunkAction, ThunkDispatch } from "redux-thunk";
+import { AnyAction, combineReducers, Reducer } from 'redux';
+import { ThunkAction, ThunkDispatch } from 'redux-thunk';
 
-import currentPageMeta from "./reducers/currentPageMeta";
-import { AppState } from "./state";
+import currentPageMeta from './reducers/currentPageMeta';
+import { AppState } from './state';
 
 export interface Action<Type, Payload = {}> {
   type: Type;

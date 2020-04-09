@@ -1,8 +1,7 @@
-import React from "react";
-import { Route, Switch } from "react-router-dom";
-import { HomePage } from "./pages/HomePage";
-import DashboardLayout from "./pages/DashboardLayout";
-
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+import DashboardLayout from './pages/DashboardLayout';
+import { HomePage } from './pages/HomePage';
 
 const AppRoutes = () => {
   return (

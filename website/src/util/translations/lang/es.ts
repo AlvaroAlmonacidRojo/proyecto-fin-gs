@@ -1,7 +1,8 @@
 import { Translation } from '../types';
 
 const translation: Translation = {
-    "component.sideBar.home.label": "Home",
-}
+    'components.sideBar.home.label': 'Home',
+    'pages.homePage.label': 'Home',
+};
 
 export default translation;

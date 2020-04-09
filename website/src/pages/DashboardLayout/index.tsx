@@ -12,7 +12,7 @@ type Props = ComponentProps;
 const DashboardLayout: FC<Props> = ({ children }) => {
     return (
         <div><CssBaseline /><ConnectedSideBar/><div>{children}</div></div>
-    )
-}
+    );
+};
 
 export default DashboardLayout;

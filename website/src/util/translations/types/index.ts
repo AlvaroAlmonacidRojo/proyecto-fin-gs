@@ -1,3 +1,4 @@
 export interface Translation {
-  "component.sideBar.home.label": string;
+  'components.sideBar.home.label': string;
+  'pages.homePage.label': string;
 }

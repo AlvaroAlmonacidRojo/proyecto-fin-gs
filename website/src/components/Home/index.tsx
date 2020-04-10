@@ -12,6 +12,9 @@ const styles = (theme: Theme) =>
             marginTop: '50px',
             marginBottom: '50px',
             textAlign: 'center',
+            border: `2px solid ${theme.palette.secondary.main}`,
+            padding: '20px',
+            backgroundColor: theme.palette.action.selected,
         },
         paper: {
             padding: '20px',
@@ -23,6 +26,7 @@ const styles = (theme: Theme) =>
             height: '100px',
             width: '100px',
             fontSize: '50px',
+            backgroundColor: theme.palette.secondary.main,
         },
         details: {
             marginBottom: '10px',
@@ -40,6 +44,7 @@ const HomeComponent: FC<Props> = ({ classes,
     const details = {
         firstName: 'Alvaro Almonacid Rojo',
         lastName: 'Almonacid Rojo',
+        email: 'alvaro.almonacid.rojo@wanadoo.es',
         description: 'Frontend developer',
         proyectName: 'Proyecto fin GS',
     };
@@ -48,10 +53,11 @@ const HomeComponent: FC<Props> = ({ classes,
         <Paper className={classes.paper}>
             <Grid container className={classes.details} alignItems="center">
                 <Grid item xs={12} md={4} lg={2} >
-                    <Avatar className={classes.avatar}>{avatarLetter}</Avatar>
+                    <Avatar className={classes.avatar} >{avatarLetter}</Avatar>
                 </Grid>
                 <Grid item xs={12} md={8} lg={10}>
-                    <Typography weight="lighter" variant="h3">{details.firstName}</Typography>
+                    <Typography weight="bold" variant="h3">{details.firstName}</Typography>
+                    <Typography weight="lighter" variant="body1">{details.email}</Typography>
                     <Typography weight="lighter" variant="body1">{details.description}</Typography>
                     <Typography weight="lighter" variant="body1">{details.proyectName}</Typography>
                 </Grid>
@@ -64,7 +70,7 @@ const HomeComponent: FC<Props> = ({ classes,
             </Grid>
             <Grid spacing={0} container className={classes.hours}>
                 <Grid item xs={12} md={6}>
-                    <Typography weight="normal" variant="h2">
+                    <Typography weight="normal" variant="h2" >
                         <Translate message="components.home.entry.label" />
                     </Typography>
                     <Typography weight="lighter" variant="h3">{entry}</Typography>

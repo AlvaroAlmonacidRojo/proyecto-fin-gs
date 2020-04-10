@@ -1,6 +1,5 @@
 import React, { ReactNode } from 'react';
-
-export type Tab = 'Home';
+import { Tab } from '../../redux/reducers/currentPageMeta';
 
 interface ComponentProps {
     pageTitle: string;

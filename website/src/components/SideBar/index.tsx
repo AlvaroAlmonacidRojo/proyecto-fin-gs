@@ -31,6 +31,8 @@ const styles = () => ({
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
+    backgroundColor: theme.palette.secondary.main,
+    color: theme.palette.primary.main,
   },
   appBarShift: {
     width: `calc(100% - ${drawerWidth}px)`,
@@ -58,7 +60,7 @@ const styles = () => ({
     alignItems: 'center',
     padding: 1,
     ...theme.mixins.toolbar,
-    justifyContent: 'flex-end'
+    justifyContent: 'flex-end',
   },
   content: {
     flexGrow: 1,
@@ -108,7 +110,7 @@ export const SideBar = ({ classes, active, children }: Props) => {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant='h6' noWrap>
+          <Typography variant='h6' noWrap color="primary">
             <Translate message='components.sideBar.title' />
           </Typography>
         </Toolbar>
@@ -125,9 +127,9 @@ export const SideBar = ({ classes, active, children }: Props) => {
         <div className={classes.drawerHeader}>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === 'ltr' ? (
-              <ChevronLeftIcon />
+              <ChevronLeftIcon color="secondary" />
             ) : (
-              <ChevronRightIcon />
+              <ChevronRightIcon color="secondary" />
             )}
           </IconButton>
         </div>
@@ -136,36 +138,36 @@ export const SideBar = ({ classes, active, children }: Props) => {
           <ListTab
             icon='home'
             selected={active === 'Home'}
-            link='/'
+            link='/home'
             text={<Translate message='components.sideBar.home.label' />}
           />
           <ListTab
             icon='group'
-            selected={active === 'Home'}
-            link='/'
+            selected={active === 'Employees'}
+            link='/empleados'
             text='Empleados'
           />
           <ListTab
             icon='group'
-            selected={active === 'Home'}
-            link='/'
+            selected={active === 'Proyects'}
+            link='/proyectos'
             text='Proyectos'
           />
           <ListTab
             icon='beachAccess'
-            selected={active === 'Home'}
-            link='/'
+            selected={active === 'Holidays'}
+            link='/vacaciones'
             text='Vacaciones'
           />
           <ListTab
             icon='dashboard'
-            selected={active === 'Home'}
-            link='/'
+            selected={active === 'Administration'}
+            link='/administracion'
             text='Administración'
           />
           <Divider />
           <ListTab
-            icon='group'
+            icon='powerSetting'
             selected={active === 'Home'}
             link='/'
             text='Logout'

@@ -61,7 +61,7 @@ export const ListTab: FC<Props> = ({ icon, selected, link, text, classes }) => {
   return (
     <StyledListItem button disableGutters={false} to={link} selected={selected}>
       <StyledListItemIcon className={selectedClass}>
-        <Icon type={icon} />
+        <Icon type={icon} color="secondary"/>
       </StyledListItemIcon>
       <StyledListItemText
         className={selectedClass}

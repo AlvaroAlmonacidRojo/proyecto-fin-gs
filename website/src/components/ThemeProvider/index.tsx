@@ -179,11 +179,11 @@ export const theme = createMuiTheme({
       main: '#fff',
     },
     secondary: {
-      main: '#a12378',
+      main: '#0174DF',
     },
     action: {
-      selected: '#f8eef5',
-      hover: '#f8eef5',
+      selected: '#eef4f8',
+      hover: '#eef4f8',
     },
     text: {
       primary: '#333',

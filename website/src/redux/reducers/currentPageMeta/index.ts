@@ -1,6 +1,6 @@
 import { Action } from '../../reducer';
 
-export type Tab = 'Home';
+export type Tab = 'Home' | 'Employees' | 'Proyects' | 'Administration' | 'Holidays';
 
 export const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE';
 

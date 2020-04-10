@@ -11,6 +11,7 @@ import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import { DatePicker, MuiPickersUtilsProvider } from 'material-ui-pickers';
 import React, { FC } from 'react';
 import Icon from '../Icon';
+import { theme } from '../ThemeProvider';
 
 const styles = (theme: Theme) => {
   return createStyles({
@@ -33,7 +34,7 @@ const datePickerTheme = createMuiTheme({
   },
   palette: {
     primary: {
-      main: '#a12378',
+      main: theme.palette.secondary.main,
     },
     secondary: {
       main: '#fff',
@@ -97,6 +98,7 @@ const DatePickerComponent: FC<InternalProps> = ({
                 </InputAdornment>
               ),
             }}
+            disableFuture
             value={selectedDate}
             onChange={handleDateChange}
           />

@@ -56,6 +56,7 @@ import CustomerIcon from '@material-ui/icons/Person';
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 import PhoneAndriodIcon from '@material-ui/icons/PhoneAndroid';
 import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
+import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
 import PriorityHigh from '@material-ui/icons/PriorityHigh';
 import RemoveCircle from '@material-ui/icons/RemoveCircle';
 import Replay from '@material-ui/icons/Replay';
@@ -132,6 +133,7 @@ export type Icons =
     | 'phoneAndroid'
     | 'phoneIphone'
     | 'priorityHigh'
+    | 'powerSetting'
     | 'removeCircle'
     | 'replay'
     | 'report'
@@ -201,6 +203,7 @@ export const iconToComponentMap: Readonly<Record<Icons, typeof SvgIcon>> = {
     phoneAndroid: PhoneAndriodIcon,
     phoneIphone: PhoneIphoneIcon,
     priorityHigh: PriorityHigh,
+    powerSetting: PowerSettingsNewIcon,
     removeCircle: RemoveCircle,
     replay: Replay,
     report: ReportIcon,

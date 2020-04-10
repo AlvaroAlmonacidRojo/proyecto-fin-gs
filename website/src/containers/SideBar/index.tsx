@@ -15,8 +15,8 @@ const mapStateToProps = ({ currentPageMeta }: AppState): StateProps => ({
   currentPageMeta,
 });
 
-const SideBarContainer: FC<Props> = ({ currentPageMeta }) => {
-  return <SideBar active={currentPageMeta.tab} />;
+const SideBarContainer: FC<Props> = ({ currentPageMeta, children }) => {
+  return <SideBar children={children} active={currentPageMeta.tab} />;
 };
 
 export const ConnectedSideBar = connect(mapStateToProps)(SideBarContainer);

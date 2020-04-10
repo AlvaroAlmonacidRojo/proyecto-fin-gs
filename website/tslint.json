@@ -1,5 +1,8 @@
 {
     "extends": ["tslint-react", "tslint:latest"],
+    "jsRules": {
+      "quotemark": [true, "single"]
+    },
     "rules": {
         "jsx-boolean-value": [true, "never"],
         "jsx-no-multiline-js": false,
@@ -20,7 +23,7 @@
         "object-literal-key-quotes": [true, "as-needed"],
         "object-literal-sort-keys": false,
         "prettier": true,
-        "quotemark": [true, "single", "jsx-double"],
+        "quotemark": [true, "single"],
         "trailing-comma": [
         true,
           {
@@ -29,5 +32,5 @@
             "esSpecCompliant": true
           }
         ]
-    }
+    },
 }

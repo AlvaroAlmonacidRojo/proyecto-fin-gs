@@ -9,14 +9,14 @@ import {
 import React, { FC, ReactNode } from 'react';
 
 import ListItemLink from '../ListItemLink';
+import Icon, { Icons } from '../Icon';
 
-export const StyledListItem = withStyles((theme: Theme) =>
+export const StyledListItem = withStyles(() =>
   createStyles({
     root: {
       padding: '16px 18px',
       '&:focus': {
         color: 'black',
-        backgroundColor: 'red',
       },
     },
   }),
@@ -48,6 +48,7 @@ const styles = (theme: Theme) =>
   });
 
 interface ComponentProp {
+  icon: Icons;
   selected: boolean;
   link: string;
   text: ReactNode;
@@ -55,10 +56,13 @@ interface ComponentProp {
 
 type Props = ComponentProp & WithStyles<typeof styles>;
 
-export const ListTab: FC<Props> = ({ selected, link, text, classes }) => {
+export const ListTab: FC<Props> = ({ icon, selected, link, text, classes }) => {
   const selectedClass = selected ? classes.selected : '';
   return (
     <StyledListItem button disableGutters={false} to={link} selected={selected}>
+      <StyledListItemIcon className={selectedClass}>
+        <Icon type={icon} />
+      </StyledListItemIcon>
       <StyledListItemText
         className={selectedClass}
         primary={text}

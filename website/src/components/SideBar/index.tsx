@@ -1,10 +1,16 @@
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
-import { Theme, withStyles, WithStyles } from '@material-ui/core/styles';
+import { withStyles, WithStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
-import React, { useState } from 'react';
+import React, { ReactNode, useState } from 'react';
 
-import { AppBar, Divider, IconButton, Toolbar, Typography } from '@material-ui/core';
+import {
+  AppBar,
+  Divider,
+  IconButton,
+  Toolbar,
+  Typography,
+} from '@material-ui/core';
 import classNames from 'classnames';
 import Translate from '../../components/Translation';
 import { Tab } from '../../redux/reducers/currentPageMeta';
@@ -12,35 +18,19 @@ import ListTab from '../ListTab';
 
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+import { theme } from '../ThemeProvider';
 
-const drawerWidth = 250;
+const drawerWidth = theme.appDrawer.width!;
 
-const styles = (theme: Theme) => ({
+const styles = () => ({
   root: {
-    display: 'flex',
+    display: 'flex'
   },
   appBar: {
-    [theme.breakpoints.up('sm')]: {
-      width: `calc(100% - ${drawerWidth}px)`,
-      marginLeft: drawerWidth,
-    },
-  },
-  menuButton: {
-    marginRight: '2px',
-    [theme.breakpoints.up('sm')]: {
-      display: 'none',
-    },
-  },
-  toolbar: theme.mixins.toolbar,
-  drawer: {
-    width: `${drawerWidth}px`,
-    flexShrink: 0
-  },
-  drawerPaper: {
-    width: `${drawerWidth}px`,
-  },
-  hide: {
-    display: 'none',
+    transition: theme.transitions.create(['margin', 'width'], {
+      easing: theme.transitions.easing.sharp,
+      duration: theme.transitions.duration.leavingScreen,
+    }),
   },
   appBarShift: {
     width: `calc(100% - ${drawerWidth}px)`,
@@ -50,61 +40,83 @@ const styles = (theme: Theme) => ({
       duration: theme.transitions.duration.enteringScreen,
     }),
   },
-  appBarSide: {
-    width: '100%',
+  menuButton: {
+    marginRight: '2px'
+  },
+  hide: {
+    display: 'none'
+  },
+  drawer: {
+    width: drawerWidth,
+    flexShrink: 0,
+  },
+  drawerPaper: {
+    width: drawerWidth,
   },
   drawerHeader: {
     display: 'flex',
     alignItems: 'center',
     padding: 1,
     ...theme.mixins.toolbar,
-    justifyContent: 'flex-end',
+    justifyContent: 'flex-end'
+  },
+  content: {
+    flexGrow: 1,
+    padding: '10px',
+    transition: theme.transitions.create('margin', {
+      easing: theme.transitions.easing.sharp,
+      duration: theme.transitions.duration.leavingScreen,
+    }),
+    marginLeft: -drawerWidth,
+  },
+  contentShift: {
+    transition: theme.transitions.create('margin', {
+      easing: theme.transitions.easing.easeOut,
+      duration: theme.transitions.duration.enteringScreen,
+    }),
+    marginLeft: 0,
   },
 });
 
 export interface ComponentProps {
   active?: Tab;
+  children: ReactNode;
 }
 
 type Props = ComponentProps & WithStyles<typeof styles>;
 
-export const SideBar = ({ classes, active }: Props) => {
+export const SideBar = ({ classes, active, children }: Props) => {
   const [open, setOpen] = useState(true);
 
-  const handleDrawerOpen = () => {
-    setOpen(true);
-  };
+  const handleDrawerOpen = () => setOpen(true);
+  const handleDrawerClose = () => setOpen(false);
 
-  const handleDrawerClose = () => {
-    setOpen(false);
-  };
   return (
-      <div>
-    <AppBar
-        position="fixed"
+    <div className={classes.root}>
+      <AppBar
+        position='fixed'
         className={classNames(classes.appBar, {
           [classes.appBarShift]: open,
-          [classes.appBarSide]: !open,
         })}
       >
         <Toolbar>
           <IconButton
-            color="inherit"
-            aria-label="open drawer"
+            color='inherit'
+            aria-label='open drawer'
             onClick={handleDrawerOpen}
-            //className={classNames(classes.menuButton)}
+            className={classNames(classes.menuButton, open && classes.hide)}
           >
-            {!open && <MenuIcon />}
+            <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap>
-            Persistent drawer
+          <Typography variant='h6' noWrap>
+            <Translate message='components.sideBar.title' />
           </Typography>
         </Toolbar>
-    </AppBar>
-    <Drawer
+      </AppBar>
+      <Drawer
         className={classes.drawer}
-        variant="persistent"
-        anchor="left"
+        variant='persistent'
+        anchor='left'
         open={open}
         classes={{
           paper: classes.drawerPaper,
@@ -112,23 +124,62 @@ export const SideBar = ({ classes, active }: Props) => {
       >
         <div className={classes.drawerHeader}>
           <IconButton onClick={handleDrawerClose}>
-            {open ? <ChevronLeftIcon /> : <ChevronRightIcon />}
+            {theme.direction === 'ltr' ? (
+              <ChevronLeftIcon />
+            ) : (
+              <ChevronRightIcon />
+            )}
           </IconButton>
         </div>
-      <Divider />
-      <List component="nav" disablePadding>
-        <ListTab
-          selected={active === 'Home'}
-          link="/"
-          text={<Translate message="components.sideBar.home.label" />}
-        />
-        <ListTab
-          selected={active === 'Home'}
-          link="/"
-          text={<Translate message="components.sideBar.home.label" />}
-        />
-      </List>
-    </Drawer>
+        <Divider />
+        <List component='nav' disablePadding>
+          <ListTab
+            icon='home'
+            selected={active === 'Home'}
+            link='/'
+            text={<Translate message='components.sideBar.home.label' />}
+          />
+          <ListTab
+            icon='group'
+            selected={active === 'Home'}
+            link='/'
+            text='Empleados'
+          />
+          <ListTab
+            icon='group'
+            selected={active === 'Home'}
+            link='/'
+            text='Proyectos'
+          />
+          <ListTab
+            icon='beachAccess'
+            selected={active === 'Home'}
+            link='/'
+            text='Vacaciones'
+          />
+          <ListTab
+            icon='dashboard'
+            selected={active === 'Home'}
+            link='/'
+            text='Administración'
+          />
+          <Divider />
+          <ListTab
+            icon='group'
+            selected={active === 'Home'}
+            link='/'
+            text='Logout'
+          />
+        </List>
+      </Drawer>
+      <main
+        className={classNames(classes.content, {
+          [classes.contentShift]: open,
+        })}
+      >
+        <div className={classes.drawerHeader} />
+        {children}
+      </main>
     </div>
   );
 };

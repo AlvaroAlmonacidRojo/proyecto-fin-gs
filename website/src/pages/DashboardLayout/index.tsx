@@ -1,17 +1,18 @@
 import CssBaseline from '@material-ui/core/CssBaseline';
-import React, { FC } from 'react';
+import React, { FC, ReactNode } from 'react';
 
 import { ConnectedSideBar } from '../../containers/SideBar';
 
 interface ComponentProps {
     tab?: string;
+    children: ReactNode;
 }
 
 type Props = ComponentProps;
 
-const DashboardLayout: FC<Props> = ({ children }) => {
+const DashboardLayout: FC<Props> = ({ children })  => {
     return (
-        <div><CssBaseline /><ConnectedSideBar/><div>{children}</div></div>
+        <div><CssBaseline /><ConnectedSideBar children={children}/></div>
     );
 };
 

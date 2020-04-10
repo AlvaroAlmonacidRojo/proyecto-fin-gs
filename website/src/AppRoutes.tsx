@@ -7,7 +7,7 @@ const AppRoutes = () => {
   return (
     <DashboardLayout>
       <Switch>
-        <Route path="/" exact component={HomePage}/>
+        <Route path="/" exact component={HomePage} />
       </Switch>
     </DashboardLayout>
   );

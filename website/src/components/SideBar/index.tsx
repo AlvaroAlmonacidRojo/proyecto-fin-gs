@@ -169,7 +169,7 @@ export const SideBar = ({ classes, active, children }: Props) => {
           <ListTab
             icon='powerSetting'
             selected={active === 'Home'}
-            link='/'
+            link='/logout'
             text='Logout'
           />
         </List>

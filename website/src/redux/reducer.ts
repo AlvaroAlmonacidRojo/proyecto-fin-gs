@@ -2,6 +2,7 @@ import { AnyAction, combineReducers, Reducer } from 'redux';
 import { ThunkAction, ThunkDispatch } from 'redux-thunk';
 
 import currentPageMeta from './reducers/currentPageMeta';
+import login from './reducers/login';
 import { AppState } from './state';
 
 export interface Action<Type, Payload = {}> {
@@ -14,6 +15,7 @@ export type Dispatcher = ThunkDispatch<AppState, undefined, AnyAction>;
 
 const appReducer: Reducer = combineReducers({
   currentPageMeta,
+  login,
 });
 
 export default appReducer;

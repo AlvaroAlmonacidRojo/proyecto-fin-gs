@@ -6,17 +6,21 @@ import AppRoutes from './AppRoutes';
 import ThemeProvider from './components/ThemeProvider';
 import { LanguageContext } from './components/Translation/context';
 import store from './redux/configureStore';
+import Login from './components/Login';
 
 class App extends Component {
   public render() {
     return (
       <ThemeProvider>
         <ReduxProvider store={store}>
+        <Login>
           <LanguageContext.Provider value="es">
             <Router>
+              
               <AppRoutes />
             </Router>
           </LanguageContext.Provider>
+          </Login>
         </ReduxProvider>
       </ThemeProvider>
     );

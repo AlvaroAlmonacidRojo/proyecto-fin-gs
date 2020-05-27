@@ -1,16 +1,16 @@
-import React, { ReactNode } from 'react';
-import { Tab } from '../../redux/reducers/currentPageMeta';
+import React, { ReactNode } from "react";
+import { Tab } from "../../redux/reducers/currentPageMeta";
 
 interface ComponentProps {
-    pageTitle: string;
-    tab?: Tab;
-    children: ReactNode;
+  pageTitle: string;
+  tab?: Tab;
+  children: ReactNode;
 }
 
 type Props = ComponentProps;
 
 const Page = ({ children }: Props) => {
-    return <main>{children}</main>;
+  return <main>{children}</main>;
 };
 
 export default Page;

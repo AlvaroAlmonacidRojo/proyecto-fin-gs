@@ -1,11 +1,9 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom';
-import DashboardLayout from './pages/DashboardLayout';
-import { HomePage } from './pages/HomePage';
-import { UsersPage } from './pages/UsersPage';
-import { ProyectsPage } from './pages/ProyectsPage';
-import { HolidaysPage } from './pages/HolidaysPage';
-import { AdministrationPage } from './pages/AdministrationPage';
+import React from "react";
+import { Route, Switch } from "react-router-dom";
+import DashboardLayout from "./pages/DashboardLayout";
+import { HomePage } from "./pages/HomePage";
+import { ProyectsPage } from "./pages/ProyectsPage";
+import { UsersPage } from "./pages/UsersPage";
 
 const AppRoutes = () => {
   return (
@@ -15,8 +13,6 @@ const AppRoutes = () => {
         <Route path="/home" exact component={HomePage} />
         <Route path="/empleados" exact component={UsersPage} />
         <Route path="/proyectos" exact component={ProyectsPage} />
-        <Route path="/vacaciones" exact component={HolidaysPage} />
-        <Route path="/administracion" exact component={AdministrationPage} />
       </Switch>
     </DashboardLayout>
   );

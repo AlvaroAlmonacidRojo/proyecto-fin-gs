@@ -1,10 +1,10 @@
-import React, { FC } from 'react';
+import React, { FC } from "react";
 
-import Page from '../Page';
-import { ConnectedUsers } from '../../containers/Users';
+import { ConnectedUsers } from "../../containers/Users";
+import Page from "../Page";
 
 export const UsersPage: FC<{}> = () => (
-    <Page pageTitle="Employees" tab="Employees">
-        <ConnectedUsers />
-    </Page>
+  <Page pageTitle="Employees" tab="Employees">
+    <ConnectedUsers />
+  </Page>
 );

@@ -1,10 +1,10 @@
-import React, { FC } from 'react';
+import React, { FC } from "react";
 
-import Page from '../Page';
-import { ConnectedProyects } from '../../containers/Proyects';
+import { ConnectedProyects } from "../../containers/Proyects";
+import Page from "../Page";
 
 export const ProyectsPage: FC<{}> = () => (
-    <Page pageTitle="Proyects" tab="Proyects">
-        <ConnectedProyects />
-    </Page>
+  <Page pageTitle="Proyects" tab="Proyects">
+    <ConnectedProyects />
+  </Page>
 );

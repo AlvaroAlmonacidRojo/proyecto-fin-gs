@@ -14,7 +14,6 @@ interface ComponentProps {
 }
 type Props = ComponentProps;
 
-
 type PermissionsCheck = (
   permissions: [],
 ) => boolean;

@@ -128,7 +128,7 @@ export function GenericForm<
     memoize((event: any) => {
       dispatch({
         type: 'onChange',
-        value: selectType(event, name, eventType), // had to do this as the typings for material dont seem to be right
+        value: selectType(event, name, eventType),
         meta: {
           name,
         },

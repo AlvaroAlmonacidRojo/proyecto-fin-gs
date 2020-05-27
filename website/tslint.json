@@ -1,7 +1,6 @@
 {
-    "extends": ["tslint-react", "tslint:latest"],
+    "extends": ["tslint-react", "tslint:latest", "tslint-config-prettier"],
     "jsRules": {
-      "quotemark": [true, "single"]
     },
     "rules": {
         "jsx-boolean-value": [true, "never"],
@@ -22,15 +21,8 @@
         "no-submodule-imports": false,
         "object-literal-key-quotes": [true, "as-needed"],
         "object-literal-sort-keys": false,
-        "prettier": true,
-        "quotemark": [true, "single"],
-        "trailing-comma": [
-        true,
-          {
-            "multiline": "always",
-            "singleline": "never",
-            "esSpecCompliant": true
-          }
-        ]
+        "prettier": true
     },
+    "rulesDirectory": ["tslint-plugin-prettier"],
+    "lint": {}
 }

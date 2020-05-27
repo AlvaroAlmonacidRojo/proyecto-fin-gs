@@ -1,0 +1,26 @@
+{
+    "extends": ["./tslint.json"],
+    "rules": {
+      "ban-ts-ignore": true,
+      "no-require-imports": true,
+      "no-switch-case-fall-through": true,
+      "ordered-imports": [
+        true,
+        {
+          "grouped-imports": true,
+          "groups": [
+            {
+              "name": "utilities",
+              "match": "^source-map-support/register$",
+              "order": 0
+            },
+            { "name": "parent directories", "match": "^\\.\\.", "order": 20 },
+            { "name": "current directory", "match": "^\\.", "order": 30 },
+            { "name": "libraries", "match": ".*", "order": 10 }
+          ]
+        }
+      ],
+      "variable-name": [true, "allow-pascal-case"]
+    }
+  }
+  

@@ -1,7 +1,7 @@
 import { DataResponse } from '../response';
 export interface Fingerprint {
     user_id: string;
-    last_fingerprint: string;
+    last_fingerprint: string
     first_fingerprint: string;
     telework: boolean;
 }

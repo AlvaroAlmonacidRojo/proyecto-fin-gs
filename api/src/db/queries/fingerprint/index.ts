@@ -3,7 +3,7 @@ import { pool } from '../pool';
 import { Fingerprint } from '../../../../../types/build/fingerprint';
 
 const findFingerprintQueryByUserIdAndDate = (userId: string, date: string) => ({
-  name: 'get-fingerprint',
+  name: `get-fingerprint-${date}`,
   text: `SELECT 
             newest.user_id, 
             newest.created_at as last_fingerprint, 

@@ -1,55 +1,55 @@
-import Button, { ButtonProps } from '@material-ui/core/Button';
+import Button, { ButtonProps } from "@material-ui/core/Button";
 import {
   createStyles,
   Theme,
   withStyles,
-  WithStyles,
-} from '@material-ui/core/styles';
-import React from 'react';
+  WithStyles
+} from "@material-ui/core/styles";
+import React from "react";
 
 const styles = (theme: Theme) =>
   createStyles({
     contained: {
-      boxShadow: 'none',
-      '&:focus': {
-        boxShadow: 'none',
+      boxShadow: "none",
+      "&:focus": {
+        boxShadow: "none"
       },
-      '&:disabled': {
+      "&:disabled": {
         backgroundColor: `${theme.colors.disabled}`,
-        color: `${theme.palette.primary.main}`,
-      },
+        color: `${theme.palette.primary.main}`
+      }
     },
     outlined: {
       borderColor: theme.palette.secondary.main,
-      '&:disabled': {
+      "&:disabled": {
         borderColor: `${theme.colors.disabled}`,
-        color: `${theme.colors.disabled}`,
-      },
+        color: `${theme.colors.disabled}`
+      }
     },
 
     text: {
-      '&:disabled': {
-        color: `${theme.colors.disabled}`,
-      },
+      "&:disabled": {
+        color: `${theme.colors.disabled}`
+      }
     },
 
     root: {
       '&[data-weight="normal"]': {
         text: {
-          fontWeight: 'normal',
-        },
+          fontWeight: "normal"
+        }
       },
       '&[data-weight="lighter"]': {
         text: {
-          fontWeight: 'lighter',
-        },
+          fontWeight: "lighter"
+        }
       },
       '&[data-weight="bold"]': {
-        fontWeight: 'bold',
-      },
-    },
+        fontWeight: "bold"
+      }
+    }
   });
-export const weightVariants = ['bold', 'normal', 'lighter'] as const;
+export const weightVariants = ["bold", "normal", "lighter"] as const;
 type WeightTuple = typeof weightVariants;
 export type WeightVariant = WeightTuple[number]; // union type
 
@@ -59,7 +59,7 @@ type Props = ButtonProps &
     weight?: WeightVariant;
   };
 
-export const ButtonComponent = ({ weight = 'normal', ...props }: Props) => {
+export const ButtonComponent = ({ weight = "normal", ...props }: Props) => {
   return <Button {...props} data-weight={weight} />;
 };
 

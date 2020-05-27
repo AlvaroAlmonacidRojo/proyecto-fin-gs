@@ -2,7 +2,6 @@
     "compilerOptions": {
       "outDir": "build",
       "rootDir": "src",
-      //"tsBuildInfoFile": "build/.tsbuildinfo",
       "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "module": "commonjs",

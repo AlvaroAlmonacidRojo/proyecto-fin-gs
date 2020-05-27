@@ -1,0 +1,1693 @@
+{
+  "program": {
+    "fileInfos": {
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.d.ts": {
+        "version": "49ff9798f592c8b7e628fd881401e68810c1b3589ecd7a41b32b3c287374cde0",
+        "signature": "49ff9798f592c8b7e628fd881401e68810c1b3589ecd7a41b32b3c287374cde0"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "1f753cee573dea40df8a9dc873fef5566957b19ad513874f6643d8dfb14842d0",
+        "signature": "1f753cee573dea40df8a9dc873fef5566957b19ad513874f6643d8dfb14842d0"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
+        "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
+        "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843",
+        "signature": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "973df4e41aea3780ce77073777d37dd5896f684124f4c42409f3a832133837a4",
+        "signature": "973df4e41aea3780ce77073777d37dd5896f684124f4c42409f3a832133837a4"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
+        "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
+        "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "2a0390a665763bcc90f0670e43c587928d8fefe2a94a11209c1e22cba7b09f52",
+        "signature": "2a0390a665763bcc90f0670e43c587928d8fefe2a94a11209c1e22cba7b09f52"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0",
+        "signature": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3",
+        "signature": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "6c9f73334f8bf47aea685ca5b46a8f7e992a223e96fbceb030f26a4d2324ba21",
+        "signature": "6c9f73334f8bf47aea685ca5b46a8f7e992a223e96fbceb030f26a4d2324ba21"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2",
+        "signature": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
+        "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4",
+        "signature": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
+        "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
+        "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
+        "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
+        "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4",
+        "signature": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0",
+        "signature": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62",
+        "signature": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8",
+        "signature": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8",
+        "signature": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.esnext.bigint.d.ts": {
+        "version": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8",
+        "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/response/index.ts": {
+        "version": "afb69f6c02682b596873447b4e9465f6bb240622e1349c43cf407ca04d0ed4f3",
+        "signature": "6c11d58c3d2e359029a08474872f428f92ebd0a76343c720aba22db84d5024b2"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/users/index.ts": {
+        "version": "9bcaab859863a6c67a7e72eed5d7c8c6dbfdf750e48da9bd3bb274eee1ec241c",
+        "signature": "9dc360750a3f03c7da7ae09cd35b66affcbc0d69cdad56ee14ca76be0c934227"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/proyects/index.ts": {
+        "version": "a444078e1338a9a25b03d49d5ddb73d881936059302a52d54967ca6fd5f52989",
+        "signature": "4b92c5a4c84c35894154794f878818ab65ae4c87e03a75da8f24587b36de64e7"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/index.ts": {
+        "version": "29514dad9b9780b629fda2ba16aa00371a7d3d66096585ef2132e8162270d7fe",
+        "signature": "29514dad9b9780b629fda2ba16aa00371a7d3d66096585ef2132e8162270d7fe"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/fingerprint/index.ts": {
+        "version": "d37b53b22e34c0715d87745f76613019b30b4d6163bfc710c49baa50818abbf4",
+        "signature": "229f7b82912862ae0eeda7352afa1a01570d092234ea2d65e82842acfefb3743"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/globals.d.ts": {
+        "version": "9d0b32c595a2e0d320a56b3d0e8f0a317e4149239ec913aa8f11eeb73edc92be",
+        "signature": "9d0b32c595a2e0d320a56b3d0e8f0a317e4149239ec913aa8f11eeb73edc92be"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/async_hooks.d.ts": {
+        "version": "96e547b51f95ee76bdb25731c92420fa6f93b59c3f38f23d505be36e2de394ee",
+        "signature": "96e547b51f95ee76bdb25731c92420fa6f93b59c3f38f23d505be36e2de394ee"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/buffer.d.ts": {
+        "version": "61215c1a376bbe8f51cab4cc4ddbf3746387015113c37a84d981d4738c21b878",
+        "signature": "61215c1a376bbe8f51cab4cc4ddbf3746387015113c37a84d981d4738c21b878"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/child_process.d.ts": {
+        "version": "3ca89ecb953fe3b63dae41e5bb986506e812754dde0369c5fe61de26eff47dbe",
+        "signature": "3ca89ecb953fe3b63dae41e5bb986506e812754dde0369c5fe61de26eff47dbe"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/cluster.d.ts": {
+        "version": "123ec69e4b3a686eb49afd94ebe3292a5c84a867ecbcb6bb84bdd720a12af803",
+        "signature": "123ec69e4b3a686eb49afd94ebe3292a5c84a867ecbcb6bb84bdd720a12af803"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/console.d.ts": {
+        "version": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d",
+        "signature": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/constants.d.ts": {
+        "version": "90c85ddbb8de82cd19198bda062065fc51b7407c0f206f2e399e65a52e979720",
+        "signature": "90c85ddbb8de82cd19198bda062065fc51b7407c0f206f2e399e65a52e979720"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/crypto.d.ts": {
+        "version": "d56c93b6bf66e602869e926ddc8b1b4630d1ff397909291767d18d4ffc22d33f",
+        "signature": "d56c93b6bf66e602869e926ddc8b1b4630d1ff397909291767d18d4ffc22d33f"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dgram.d.ts": {
+        "version": "7ecfe97b43aa6c8b8f90caa599d5648bb559962e74e6f038f73a77320569dd78",
+        "signature": "7ecfe97b43aa6c8b8f90caa599d5648bb559962e74e6f038f73a77320569dd78"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dns.d.ts": {
+        "version": "aad3237c3f99480041cad7ca04d64307c98933996f822342b7c0ee4a78553346",
+        "signature": "aad3237c3f99480041cad7ca04d64307c98933996f822342b7c0ee4a78553346"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/domain.d.ts": {
+        "version": "4d4c83f77ac21a72252785baa5328a5612b0b6598d512f68b8cb14f7966d059e",
+        "signature": "4d4c83f77ac21a72252785baa5328a5612b0b6598d512f68b8cb14f7966d059e"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts": {
+        "version": "5ffa4219ee64e130980a4231392cbc628544df137ccf650ae8d76e0a1744fd2b",
+        "signature": "5ffa4219ee64e130980a4231392cbc628544df137ccf650ae8d76e0a1744fd2b"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts": {
+        "version": "e1a12c7e7951b9762cfbcc43c72eb5611120967706a7c3142ad303c6b7ee767f",
+        "signature": "e1a12c7e7951b9762cfbcc43c72eb5611120967706a7c3142ad303c6b7ee767f"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/http.d.ts": {
+        "version": "b5fd0a137bd6d0afe291d465e99c7469b082b66b3ee89273b3b22801b6c2948e",
+        "signature": "b5fd0a137bd6d0afe291d465e99c7469b082b66b3ee89273b3b22801b6c2948e"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/http2.d.ts": {
+        "version": "873da589b78a1f1fa7d623483bd2c2730a02e0852259fb8fdcfe5221ac51d18a",
+        "signature": "873da589b78a1f1fa7d623483bd2c2730a02e0852259fb8fdcfe5221ac51d18a"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/https.d.ts": {
+        "version": "c969bf4c7cdfe4d5dd28aa09432f99d09ad1d8d8b839959646579521d0467d1a",
+        "signature": "c969bf4c7cdfe4d5dd28aa09432f99d09ad1d8d8b839959646579521d0467d1a"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/inspector.d.ts": {
+        "version": "4218ced3933a31eed1278d350dd63c5900df0f0904f57d61c054d7a4b83dbe4c",
+        "signature": "4218ced3933a31eed1278d350dd63c5900df0f0904f57d61c054d7a4b83dbe4c"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/module.d.ts": {
+        "version": "a376e245f494b58365a4391a2568e6dd9da372c3453f4732eb6e15ebb9038451",
+        "signature": "a376e245f494b58365a4391a2568e6dd9da372c3453f4732eb6e15ebb9038451"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts": {
+        "version": "ffe8912b7c45288810c870b768190c6c097459930a587dd6ef0d900a5529a811",
+        "signature": "ffe8912b7c45288810c870b768190c6c097459930a587dd6ef0d900a5529a811"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/os.d.ts": {
+        "version": "f53678bdb9f25445c8cdf021f2b003b74fd638e69bb1959dde8e370e8cc1e4fa",
+        "signature": "f53678bdb9f25445c8cdf021f2b003b74fd638e69bb1959dde8e370e8cc1e4fa"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/path.d.ts": {
+        "version": "84044697c8b3e08ef24e4b32cfe6440143d07e469a5e34bda0635276d32d9f35",
+        "signature": "84044697c8b3e08ef24e4b32cfe6440143d07e469a5e34bda0635276d32d9f35"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "0b6098fedb648cab8091cca2b022a5c729b6ef18da923852033f495907cb1a45",
+        "signature": "0b6098fedb648cab8091cca2b022a5c729b6ef18da923852033f495907cb1a45"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/process.d.ts": {
+        "version": "0e0d58f5e90c0a270dac052b9c5ad8ccdfc8271118c2105b361063218d528d6e",
+        "signature": "0e0d58f5e90c0a270dac052b9c5ad8ccdfc8271118c2105b361063218d528d6e"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/punycode.d.ts": {
+        "version": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1",
+        "signature": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/querystring.d.ts": {
+        "version": "9f633ecf3e065ff82c19eccab35c8aa1d6d5d1a49af282dc29ef5a64cca34164",
+        "signature": "9f633ecf3e065ff82c19eccab35c8aa1d6d5d1a49af282dc29ef5a64cca34164"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/readline.d.ts": {
+        "version": "6b2bb67b0942bcfce93e1d6fad5f70afd54940a2b13df7f311201fba54b2cbe9",
+        "signature": "6b2bb67b0942bcfce93e1d6fad5f70afd54940a2b13df7f311201fba54b2cbe9"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/repl.d.ts": {
+        "version": "dd3706b25d06fe23c73d16079e8c66ac775831ef419da00716bf2aee530a04a4",
+        "signature": "dd3706b25d06fe23c73d16079e8c66ac775831ef419da00716bf2aee530a04a4"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts": {
+        "version": "d74b8e644da7415e3757a17a42b7f284597b577e3c87b80f4b3ba0cc2db1184f",
+        "signature": "d74b8e644da7415e3757a17a42b7f284597b577e3c87b80f4b3ba0cc2db1184f"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/string_decoder.d.ts": {
+        "version": "7e62aac2cc9c0710d772047ad89e8d7117f52592c791eb995ce1f865fedab432",
+        "signature": "7e62aac2cc9c0710d772047ad89e8d7117f52592c791eb995ce1f865fedab432"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/timers.d.ts": {
+        "version": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "signature": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tls.d.ts": {
+        "version": "424bc64b2794d9280c1e1f4a3518ba9d285385a16d84753a6427bb469e582eca",
+        "signature": "424bc64b2794d9280c1e1f4a3518ba9d285385a16d84753a6427bb469e582eca"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/trace_events.d.ts": {
+        "version": "a77fdb357c78b70142b2fdbbfb72958d69e8f765fd2a3c69946c1018e89d4638",
+        "signature": "a77fdb357c78b70142b2fdbbfb72958d69e8f765fd2a3c69946c1018e89d4638"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tty.d.ts": {
+        "version": "3c2ac350c3baa61fd2b1925844109e098f4376d0768a4643abc82754fd752748",
+        "signature": "3c2ac350c3baa61fd2b1925844109e098f4376d0768a4643abc82754fd752748"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts": {
+        "version": "826d48e49c905cedb906cbde6ccaf758827ff5867d4daa006b5a79e0fb489357",
+        "signature": "826d48e49c905cedb906cbde6ccaf758827ff5867d4daa006b5a79e0fb489357"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts": {
+        "version": "893d1b5dd98f1c01a0ec4122dfd7f774e0fa1560e1aa19e509c96ed543c6244e",
+        "signature": "893d1b5dd98f1c01a0ec4122dfd7f774e0fa1560e1aa19e509c96ed543c6244e"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/v8.d.ts": {
+        "version": "289be113bad7ee27ee7fa5b1e373c964c9789a5e9ed7db5ddcb631371120b953",
+        "signature": "289be113bad7ee27ee7fa5b1e373c964c9789a5e9ed7db5ddcb631371120b953"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/vm.d.ts": {
+        "version": "e4abb8eaa8a7d78236be0f8342404aab076668d20590209e32fdeb924588531e",
+        "signature": "e4abb8eaa8a7d78236be0f8342404aab076668d20590209e32fdeb924588531e"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/worker_threads.d.ts": {
+        "version": "1b4db6ed54916341a48bb81cfd9f910999b3bcd6b71c6a4c7416532a6908775d",
+        "signature": "1b4db6ed54916341a48bb81cfd9f910999b3bcd6b71c6a4c7416532a6908775d"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/zlib.d.ts": {
+        "version": "f409183966a1dd93d3a9cd1d54fbeb85c73101e87cd5b19467c5e37b252f3fd8",
+        "signature": "f409183966a1dd93d3a9cd1d54fbeb85c73101e87cd5b19467c5e37b252f3fd8"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/base.d.ts": {
+        "version": "5ff4ecfd544d596de3c8011a6d44c59443c85e1f99065095e556b15237eb39ac",
+        "signature": "5ff4ecfd544d596de3c8011a6d44c59443c85e1f99065095e556b15237eb39ac"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts": {
+        "version": "12b2608d6074167c331c9c3c6994a57819f6ff934c7fd4527e23aabf56d4c8d1",
+        "signature": "12b2608d6074167c331c9c3c6994a57819f6ff934c7fd4527e23aabf56d4c8d1"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts": {
+        "version": "ffc1cd688606ad1ddb59a40e8f3defbde907af2a3402d1d9ddf69accb2903f07",
+        "signature": "ffc1cd688606ad1ddb59a40e8f3defbde907af2a3402d1d9ddf69accb2903f07"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/globals.d.ts": {
+        "version": "4926e99d2ad39c0bbd36f2d37cc8f52756bc7a5661ad7b12815df871a4b07ba1",
+        "signature": "4926e99d2ad39c0bbd36f2d37cc8f52756bc7a5661ad7b12815df871a4b07ba1"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/base.d.ts": {
+        "version": "8a70903bbbdad1d58e3936ca90b3ad993e54827ea324e20f2f63cef4e14e9d55",
+        "signature": "8a70903bbbdad1d58e3936ca90b3ad993e54827ea324e20f2f63cef4e14e9d55"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/assert.d.ts": {
+        "version": "f61a4062a627acbe5c4a9650319132ec8fa7fe2f276a7f40a056e59c2a877e04",
+        "signature": "f61a4062a627acbe5c4a9650319132ec8fa7fe2f276a7f40a056e59c2a877e04"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/index.d.ts": {
+        "version": "9522f3e35b412f2f17974b1431a1b18d06e0a8f614a0700c37220a4afb04afa8",
+        "signature": "9522f3e35b412f2f17974b1431a1b18d06e0a8f614a0700c37220a4afb04afa8"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/pg-types/index.d.ts": {
+        "version": "060937b9e71c39c855e3572260800c74f248947c5781ddd8db1f3e0a08696c13",
+        "signature": "060937b9e71c39c855e3572260800c74f248947c5781ddd8db1f3e0a08696c13"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/pg/index.d.ts": {
+        "version": "9254d4c0167849336266fe01ca33566208ac7a2930d314cf79bfc40bdbcf42de",
+        "signature": "9254d4c0167849336266fe01ca33566208ac7a2930d314cf79bfc40bdbcf42de"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/prop-types/index.d.ts": {
+        "version": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
+        "signature": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/react/global.d.ts": {
+        "version": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
+        "signature": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/csstype/index.d.ts": {
+        "version": "cd4fba36eeb79a6e2ff14bbe1024cd83ae542c1bd1c2a02ed853ebc251974119",
+        "signature": "cd4fba36eeb79a6e2ff14bbe1024cd83ae542c1bd1c2a02ed853ebc251974119"
+      },
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/react/index.d.ts": {
+        "version": "e726c865f71af8f20d4a03e17182f62a38e1fd300161b867dc6068ce6529f7f2",
+        "signature": "e726c865f71af8f20d4a03e17182f62a38e1fd300161b867dc6068ce6529f7f2"
+      }
+    },
+    "options": {
+      "outDir": "/Users/alvaroalmonacidrojo/Personal/Alvaro/Repos/proyecto-fin-gs/types/build",
+      "rootDir": "/Users/alvaroalmonacidrojo/Personal/Alvaro/Repos/proyecto-fin-gs/types/src",
+      "composite": true,
+      "watch": true,
+      "configFilePath": "/Users/alvaroalmonacidrojo/Personal/Alvaro/Repos/proyecto-fin-gs/types/tsconfig.json"
+    },
+    "referencedMap": {
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es5.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.dom.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.scripthost.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/response/index.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/users/index.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/response/index.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/index.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/proyects/index.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/response/index.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/index.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/users/index.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/response/index.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/proyects/index.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/fingerprint/index.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/response/index.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/globals.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/async_hooks.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/buffer.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/child_process.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/cluster.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/child_process.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/console.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/constants.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/os.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/crypto.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/crypto.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dgram.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dns.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dns.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/domain.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/http.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/http2.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tls.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/http.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/https.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tls.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/http.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/inspector.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/module.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dns.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/os.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/path.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/perf_hooks.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/async_hooks.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/process.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tty.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/punycode.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/querystring.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/readline.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/repl.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/readline.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/vm.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/string_decoder.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/timers.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tls.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/crypto.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dns.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/trace_events.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tty.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/querystring.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/v8.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/vm.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/worker_threads.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/vm.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/zlib.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/base.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/globals.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/async_hooks.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/buffer.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/child_process.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/cluster.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/console.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/constants.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/crypto.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dgram.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dns.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/domain.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/http.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/http2.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/https.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/inspector.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/module.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/os.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/path.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/perf_hooks.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/process.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/punycode.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/querystring.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/readline.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/repl.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/string_decoder.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/timers.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tls.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/trace_events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tty.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/v8.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/vm.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/worker_threads.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/zlib.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/globals.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/base.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/base.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/globals.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/assert.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/index.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/base.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/assert.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/pg-types/index.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/pg/index.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/pg-types/index.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tls.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/pg/index.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/prop-types/index.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/react/global.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/csstype/index.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/react/index.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/csstype/index.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/prop-types/index.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/react/global.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es5.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.dom.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.scripthost.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/users/index.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/index.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/response/index.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/proyects/index.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/response/index.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/index.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/users/index.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/response/index.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/proyects/index.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/globals.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/async_hooks.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/buffer.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/child_process.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/cluster.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/child_process.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/console.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/constants.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/os.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/crypto.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/crypto.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dgram.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dns.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dns.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/domain.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/http.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/http2.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tls.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/http.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/https.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tls.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/http.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/inspector.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/module.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dns.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/os.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/path.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/perf_hooks.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/async_hooks.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/process.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tty.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/punycode.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/querystring.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/readline.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/repl.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/readline.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/vm.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/string_decoder.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/timers.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tls.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/crypto.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dns.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/trace_events.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tty.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/querystring.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/v8.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/vm.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/worker_threads.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/vm.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/zlib.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/base.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/globals.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/async_hooks.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/buffer.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/child_process.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/cluster.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/console.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/constants.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/crypto.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dgram.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dns.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/domain.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/http.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/http2.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/https.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/inspector.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/module.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/os.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/path.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/perf_hooks.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/process.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/punycode.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/querystring.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/readline.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/repl.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/string_decoder.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/timers.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tls.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/trace_events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tty.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/v8.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/vm.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/worker_threads.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/zlib.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/globals.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/base.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/base.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/globals.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/assert.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/index.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/base.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/assert.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/pg-types/index.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/pg/index.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/pg-types/index.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tls.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/pg/index.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/prop-types/index.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/react/global.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/csstype/index.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/react/index.d.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/csstype/index.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/prop-types/index.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/react/global.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/fingerprint/index.ts": [
+        "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/response/index.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es5.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2016.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.dom.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/api/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/response/index.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/users/index.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/proyects/index.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/index.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/globals.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/async_hooks.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/buffer.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/child_process.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/cluster.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/console.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/constants.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/crypto.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dgram.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/dns.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/domain.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/events.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/fs.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/http.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/http2.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/https.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/inspector.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/module.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/net.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/os.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/path.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/perf_hooks.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/process.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/punycode.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/querystring.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/readline.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/repl.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/stream.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/string_decoder.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/timers.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tls.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/trace_events.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/tty.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/url.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/util.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/v8.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/vm.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/worker_threads.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/zlib.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/base.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/fs.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/util.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/globals.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/base.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/assert.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/node/ts3.2/index.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/pg-types/index.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/pg/index.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/prop-types/index.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/react/global.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/csstype/index.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/node_modules/@types/react/index.d.ts",
+      "/users/alvaroalmonacidrojo/personal/alvaro/repos/proyecto-fin-gs/types/src/fingerprint/index.ts"
+    ]
+  },
+  "version": "3.5.2"
+}

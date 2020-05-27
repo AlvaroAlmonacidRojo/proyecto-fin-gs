@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "outDir": "build",
+      "rootDir": "src",
+      "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "pretty": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2018"
+    },
+    "references": [
+      { "path": "../types" },
+    ]
+  }
+  

@@ -1,0 +1,93 @@
+{
+    "name": "website",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+      "@date-io/date-fns": "^1.3.9",
+      "@material-ui/core": "^3.9.3",
+      "@material-ui/icons": "^3.0.2",
+      "classnames": "^2.2.6",
+      "date-fns": "^2.0.0",
+      "i18n-iso-countries": "^4.1.1",
+      "immutable": "^4.0.0-rc.12",
+      "lodash": "^4.17.15",
+      "material-ui-flat-pagination": "^3.2.0",
+      "material-ui-pickers": "^2.2.4",
+      "memoize-one": "^5.0.4",
+      "moment": "^2.24.0",
+      "notistack": "^0.9.5",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6",
+      "react-redux": "^7.1.0",
+      "react-router-dom": "^5.0.1",
+      "react-scripts": "^3.0.1",
+      "react-select": "^3.0.4",
+      "redux": "^4.0.1",
+      "redux-promise-middleware": "^6.1.1",
+      "redux-thunk": "^2.3.0",
+      "reselect": "^4.0.0",
+      "type-to-reducer": "1.1.0",
+      "uuid": "^3.3.2",
+      "validate.js": "^0.13.1",
+      "whatwg-fetch": "^3.0.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.4.5",
+      "@storybook/react": "^5.1.8",
+      "@testing-library/react": "^8.0.1",
+      "@types/classnames": "^2.2.8",
+      "@types/jest": "^24.0.12",
+      "@types/lodash": "^4.14.149",
+      "@types/memoize-one": "^4.1.1",
+      "@types/nock": "^10.0.3",
+      "@types/node": "^10.14.9",
+      "@types/react": "^16.8.20",
+      "@types/react-dom": "^16.8.4",
+      "@types/react-redux": "^7.1.0",
+      "@types/react-router": "^5.0.2",
+      "@types/react-router-dom": "^4.3.4",
+      "@types/react-select": "^3.0.2",
+      "@types/react-test-renderer": "^16.8.2",
+      "@types/redux-mock-store": "^1.0.1",
+      "@types/storybook__react": "^4.0.2",
+      "babel-loader": "8.0.5",
+      "concurrently": "^4.1.0",
+      "jest-dom": "^3.5.0",
+      "mockdate": "^2.0.3",
+      "nock": "^10.0.6",
+      "react-test-renderer": "^16.8.6",
+      "redux-mock-store": "^1.5.3",
+      "tslint-react": "4.0.0",
+      "typescript": "3.5.2"
+    },
+    "scripts": {
+      "clean": "rm -rf build storybook-static",
+      "compile:react-app": "react-scripts build",
+      "compile:storybook": "build-storybook --quiet",
+      "compile": "concurrently --names react-app,storybook,type-check --prefix-colors blue.dim,magenta.dim,cyan.dim 'yarn run --silent compile:react-app' 'yarn run --silent compile:storybook' 'yarn run --silent type-check'",
+      "lint": "scripts/lint",
+      "prepare:dev": "tsc --build",
+      "start:dev": "react-scripts start",
+      "storybook": "start-storybook",
+      "test:dev": "TZ=Europe/Madrid react-scripts test",
+      "test": "CI=true TZ=Europe/Madrid react-scripts test",
+      "type-check": "tsc --pretty"
+    },
+    "eslintConfig": {
+      "extends": "react-app",
+      "rules": {
+        "react/jsx-curly-brace-presence": [
+          "error",
+          "never"
+        ]
+      }
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ],
+    "proxy": "http://localhost:8081"
+  }
+  

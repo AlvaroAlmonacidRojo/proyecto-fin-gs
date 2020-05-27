@@ -1,17 +1,18 @@
-import { createStyles, Paper, Theme, withStyles, WithStyles, Table, TableHead, TableRow, TableCell, TableBody, Grid, OutlinedInput, CircularProgress, Select, MenuItem, Chip } from '@material-ui/core';
+import { createStyles, Paper, Theme, withStyles, WithStyles, Table, TableHead, TableRow, TableCell, TableBody, Grid, OutlinedInput, CircularProgress, Select, Chip, MenuItem } from '@material-ui/core';
 import React, { FC, useState } from 'react';
 import Typography from '../Typography';
 import Translate from '../Translation';
 import Button from '../Button';
-import { Proyect } from '../../../../types/build/proyects';
-import { GenericForm } from '../Forms';
 import DataContainer from '../DataContainer';
-import { connect } from 'react-redux';
-import { Dispatcher } from '../../redux/reducer';
-import { AppState } from '../../redux/state';
-import actionDispatcher from '../../redux/actionDispatcher';
-import { getUserList, DefaultState as UserListDefaultState } from '../../redux/reducers/userList';
 import { User } from '../../../../types/build/users';
+import { GenericForm } from '../Forms';
+import { getProyectList, DefaultState as ProyectListDefaultState } from '../../redux/reducers/proyectList';
+import { AppState } from '../../redux/state';
+import { Dispatcher } from '../../redux/reducer';
+import actionDispatcher from '../../redux/actionDispatcher';
+import { Proyect } from '../../../../types/build/proyects';
+import { connect } from 'react-redux';
+
 
 const styles = (theme: Theme) =>
     createStyles({
@@ -20,7 +21,7 @@ const styles = (theme: Theme) =>
             height: '100%',
             margin: '20px',
         },
-        proyect: {
+        employ: {
             margin: '20px',
         },
         chips: {
@@ -35,88 +36,92 @@ const styles = (theme: Theme) =>
             maxWidth: 300,
         }
     });
-
 interface ComponentProps {
-    proyects: Proyect[];
+    users: User[];
     formCallback: (formData: {}) => () => void;
 }
 
-const initialState = {
-    name: undefined,
-    description: undefined,
-    user_ids: [],
-}
 
 interface StateProps {
-    userList: UserListDefaultState;
+    proyectList: ProyectListDefaultState;
 }
 
 interface DispatchProps {
-    dispatchGetUserList: (refresh: boolean) => () => void;
+    dispatchGetProyectList: (refresh: boolean) => () => void;
 }
 
-type Props = StateProps & DispatchProps & WithStyles<typeof styles> & ComponentProps;
+type Props = WithStyles<typeof styles> & ComponentProps & StateProps & DispatchProps;
 
 const mapStateToProps = (state: AppState): StateProps => ({
-    userList: state.userList,
+    proyectList: state.proyectList,
 });
 
 const mapDispatchToProps = (dispatch: Dispatcher): DispatchProps => ({
-    dispatchGetUserList: actionDispatcher(getUserList, dispatch),
+    dispatchGetProyectList: actionDispatcher(getProyectList, dispatch),
 });
 
-const ProyectsComponent: FC<Props> = ({
-    classes,
-    proyects,
-    formCallback,
-    userList,
-    dispatchGetUserList,
-}) => {
-    const allProyects = proyects.length;
-    const [openForm, setOpenForm] = useState(false);
-    const newProyect = () => setOpenForm(true);
+const initialState = {
+    email: undefined,
+    first_name: undefined,
+    last_name: undefined,
+    proyect_ids: [],
+}
 
+const UsersComponent: FC<Props> = ({ 
+    classes, 
+    users, 
+    formCallback,
+    proyectList,
+    dispatchGetProyectList,
+}) => {
+    const allEmployees = users.length;
+    const [openForm, setOpenForm] = useState(false);
+    const newEmploye = () => setOpenForm(true);
     return (
         <Paper className={classes.paper}>
             <Typography
                 component="h3"
                 variant="h3"
             >
-                <Translate message="components.proyects.allProyects.title" />
+                <Translate message="components.employees.allEmployees.title" />
             </Typography>
             <Typography variant="caption" weight="lighter" customColor="boulder">
-                {allProyects}{' '}
-                <Translate message="components.proyects.allProyects.count" />
+                {allEmployees}{' '}
+                <Translate message="components.employees.allEmployees.count" />
             </Typography>
-            <Grid className={classes.proyect}>
-                <Button variant="contained" color="secondary" onClick={newProyect}>Nuevo proyecto</Button>
+            <Grid className={classes.employ}>
+                <Button variant="contained" color="secondary" onClick={newEmploye}>Nuevo empleado</Button>
             </Grid>
             {openForm &&
                 <Grid>
                     <GenericForm initialState={initialState}
                         validations={{
-                            name: {
+                            email: {
                                 presence: { allowEmpty: false },
                             },
-                            description: {
+                            first_name: {
                                 presence: { allowEmpty: false },
                             },
-                            user_ids: {},
+                            last_name: {
+                                presence: { allowEmpty: false },
+                            },
+                            proyect_ids: {},
                         }}
                         submitCallback={formCallback}>
                         {({ state, handleSubmit, handleChange }) => {
                             return <>
                                 <Grid container>
-                                    <Grid md={4}><OutlinedInput placeholder="Nombre" labelWidth={0} onChange={handleChange('text')('name')} /></Grid>
-                                    <Grid md={4}><OutlinedInput placeholder="Descripción" labelWidth={0} onChange={handleChange('text')('description')} /></Grid>
+                                    <Grid md={4}><OutlinedInput placeholder="Email" labelWidth={0} onChange={handleChange('text')('email')} /></Grid>
+                                    <Grid md={4}><OutlinedInput placeholder="Nombre" labelWidth={0} onChange={handleChange('text')('first_name')} /></Grid>
+                                    <Grid md={4}><OutlinedInput placeholder="Apellidos" labelWidth={0} onChange={handleChange('text')('last_name')} /></Grid>
                                     <DataContainer
-                                        data={userList}
-                                        dataFetcher={dispatchGetUserList(true)}
+                                        data={proyectList}
+                                        dataFetcher={dispatchGetProyectList(true)}
                                     >
                                         {data => {
-                                            const selectValue = (id: string, data: User[]) => {
-                                                const user = data.filter(c => c.user_id === id);
-                                                return user.length > 0 ? `${user[0].first_name} ${user[0].last_name}` : '';
+                                            const selectValue = (id: string, data: Proyect[]) => {
+                                                const proyect = data.filter(c => c.proyect_id === id);
+                                                return proyect.length > 0 ? `${proyect[0].name}` : '';
                                             }
                                             return <Select
                                                 multiple
@@ -128,17 +133,17 @@ const ProyectsComponent: FC<Props> = ({
                                                         ))}
                                                     </div>
                                                 )}
-                                                value={state.user_ids || []}
-                                                onChange={handleChange('list')('user_ids')} >
-                                                {data.map((customer) => {
-                                                    return <MenuItem value={customer.user_id}>{`${customer.first_name} ${customer.last_name}`}</MenuItem>
+                                                value={state.proyect_ids || []}
+                                                onChange={handleChange('list')('proyect_ids')} >
+                                                {data.map((proyect) => {
+                                                    return <MenuItem value={proyect.proyect_id}>{`${proyect.name}`}</MenuItem>
                                                 })}
                                             </Select>
                                         }}
                                     </DataContainer>
                                     <Button
                                         variant="contained" color="secondary" onClick={handleSubmit}
-                                        className={classes.proyect}
+                                        className={classes.employ}
                                     >
                                         {state.pending ? (
                                             <CircularProgress size={24} />
@@ -156,21 +161,21 @@ const ProyectsComponent: FC<Props> = ({
             <Table>
                 <TableHead>
                     <TableRow>
-                        <TableCell>Nombre</TableCell>
-                        <TableCell numeric>Descripción</TableCell>
-                        <TableCell numeric>Creación</TableCell>
-                        <TableCell numeric>Empleados</TableCell>
+                        <TableCell>Email</TableCell>
+                        <TableCell >Nombre</TableCell>
+                        <TableCell >Apellidos</TableCell>
+                        <TableCell >Proyectos</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    {proyects.map(({ proyect_id, name, description, created_at, total_users }) => (
-                        <TableRow key={proyect_id}>
+                    {users.map(({ user_id, email, first_name, last_name, total_proyects }) => (
+                        <TableRow key={user_id}>
                             <TableCell component="th" scope="row">
-                                {name}
+                                {email}
                             </TableCell>
-                            <TableCell numeric>{description}</TableCell>
-                            <TableCell numeric>{created_at}</TableCell>
-                            <TableCell numeric>{total_users}</TableCell>
+                            <TableCell >{first_name}</TableCell>
+                            <TableCell >{last_name}</TableCell>
+                            <TableCell >{total_proyects}</TableCell>
                         </TableRow>
                     ))}
                 </TableBody>
@@ -179,4 +184,4 @@ const ProyectsComponent: FC<Props> = ({
     );
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles)(ProyectsComponent));
+export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles)(UsersComponent));

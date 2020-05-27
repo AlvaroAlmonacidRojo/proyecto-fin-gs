@@ -26,7 +26,7 @@ const Login: FC<{} & DispatchProps > = ({ children, setLogin }) => {
         console.log('ERROR')
     }
     return (<>
-        {!isSignIn ? <GoogleLogin
+        {isSignIn ? <GoogleLogin
             clientId="185204078816-12higau5sbopv184as7l0mmd1g7qugsr.apps.googleusercontent.com"//TO BE CREATED
             onSuccess={onSuccess}
             onFailure={onFailure}

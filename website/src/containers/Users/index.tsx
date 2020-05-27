@@ -1,9 +1,8 @@
-import ProyectsComponent from '../../components/Proyects';
-
 import React from 'react';
 import { connect } from 'react-redux';
 
-import { DefaultState as ProyectListDefaultState, getProyectList } from '../../redux/reducers/proyectList';
+import UsersComponent from '../../components/Users';
+import { DefaultState as UserListDefaultState, getUserList } from '../../redux/reducers/userList';
 import { AppState } from '../../redux/state';
 import { Dispatcher } from '../../redux/reducer';
 import actionDispatcher from '../../redux/actionDispatcher';
@@ -11,45 +10,46 @@ import DataContainer from '../../components/DataContainer';
 import { dataSenderWithCallback } from '../../redux/reducers/dataState';
 
 interface StateProps {
-  proyectList: ProyectListDefaultState;
+  userList: UserListDefaultState;
 }
 
 interface DispatchProps {
-  dispatchGetProyectList: (refresh: boolean) => () => void;
+  dispatchGetUserList: (refresh: boolean) => () => void;
   dispatchSenderAction: (url: string, method: 'POST', callback: Array<() => void>, tag: string, formData: {}) => () => void;
 }
 
 type Props = StateProps & DispatchProps;
 
 const mapStateToProps = (state: AppState): StateProps => ({
-  proyectList: state.proyectList,
+  userList: state.userList,
 });
 
 const mapDispatchToProps = (dispatch: Dispatcher): DispatchProps => ({
-  dispatchGetProyectList: actionDispatcher(getProyectList, dispatch),
+  dispatchGetUserList: actionDispatcher(getUserList, dispatch),
   dispatchSenderAction: actionDispatcher(dataSenderWithCallback, dispatch)
 });
 
 const InternalComponent = ({
-  dispatchGetProyectList,
+  dispatchGetUserList,
   dispatchSenderAction,
-  proyectList,
+  userList,
 }: Props) => {
-  const formCallBack = (formData: {}) => () => {
+  const formCallBack = (formData: {}) => () =>{
+    console.log('da')
     dispatchSenderAction(
-      '/api/proyects',
+      '/api/users',
       'POST',
-      [dispatchGetProyectList(true)],
+      [dispatchGetUserList(true)],
       '',
       formData,
     )();
   }
   return <DataContainer
-    data={proyectList}
-    dataFetcher={dispatchGetProyectList(true)}
+    data={userList}
+    dataFetcher={dispatchGetUserList(true)}
   >
-  {data => <ProyectsComponent proyects={data} formCallback={formCallBack} />}
+  {data => <UsersComponent users={data} formCallback={formCallBack}/>}
   </DataContainer>;
 };
 
-export const ConnectedProyects = connect(mapStateToProps, mapDispatchToProps)(InternalComponent);
+export const ConnectedUsers = connect(mapStateToProps, mapDispatchToProps)(InternalComponent);

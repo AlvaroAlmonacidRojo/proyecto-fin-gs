@@ -82,7 +82,6 @@ const handle = <Params, ResponseBody, T>(
             res.json(dataResponse(filteredData));
         }
     } catch (error) {
-        console.log('ERROR')
         next(error);
     }
 };

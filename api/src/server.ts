@@ -12,7 +12,6 @@ const app = express();
 app.use(
   bodyParser.json(),
 );
-console.log('SEVER in port: ', host, port);
 app.use('/', router);
 
 

@@ -32,11 +32,3 @@ CREATE TABLE IF NOT EXISTS fingerprint (
     created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
     telework BOOLEAN NOT NULL DEFAULT FALSE
 );
-
-// created_at mas nuevo en ese dia
-// created_at mas viejo
-// week [ ]
-
-select newest.user_id, newest.created_at as last_fingerprint, oldest.created_at as first_fingerprint from 
-(select user_id, created_at from fingerprint where created_at::text like '2020-05%' AND user_id = '67390d41-a0f6-46e2-b1f7-935f6ca9cc3d' order by created_at desc limit 1) as newest,
-(select created_at from fingerprint where created_at::text like '2020-05%' AND user_id = '67390d41-a0f6-46e2-b1f7-935f6ca9cc3d' order by created_at asc limit 1) as oldest;

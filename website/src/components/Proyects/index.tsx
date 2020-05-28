@@ -16,6 +16,7 @@ import {
   WithStyles,
   withStyles
 } from "@material-ui/core";
+import moment from "moment";
 import React, { FC, useState } from "react";
 import { connect } from "react-redux";
 import { Proyect } from "../../../../types/build/proyects";
@@ -53,6 +54,15 @@ const styles = (theme: Theme) =>
     select: {
       minWidth: 120,
       maxWidth: 300
+    },
+    form: {
+      border: `2px solid ${theme.palette.secondary.main}`,
+      padding: "20px",
+      margin: "20px",
+      width: "50%"
+    },
+    formItems: {
+      padding: "10px"
     }
   });
 
@@ -131,62 +141,67 @@ const ProyectsComponent: FC<Props> = ({
             {({ state, handleSubmit, handleChange }) => {
               return (
                 <>
-                  <Grid container>
-                    <Grid md={4}>
+                  <Grid container className={classes.form}>
+                    <Grid md={12} className={classes.formItems}>
                       <OutlinedInput
                         placeholder="Nombre"
                         labelWidth={0}
+                        fullWidth
                         onChange={handleChange("text")("name")}
                       />
                     </Grid>
-                    <Grid md={4}>
+                    <Grid md={12} className={classes.formItems}>
                       <OutlinedInput
                         placeholder="Descripción"
                         labelWidth={0}
+                        fullWidth
                         onChange={handleChange("text")("description")}
                       />
                     </Grid>
-                    <DataContainer
-                      data={userList}
-                      dataFetcher={dispatchGetUserList(true)}
-                    >
-                      {data => {
-                        const selectValue = (id: string, data: User[]) => {
-                          const user = data.filter(c => c.user_id === id);
-                          return user.length > 0
-                            ? `${user[0].first_name} ${user[0].last_name}`
-                            : "";
-                        };
-                        return (
-                          <Select
-                            multiple
-                            className={classes.select}
-                            renderValue={selected => (
-                              <div className={classes.chips}>
-                                {(selected as string[]).map(value => (
-                                  <Chip
-                                    key={value}
-                                    label={selectValue(value, data)}
-                                    className={classes.chip}
-                                  />
-                                ))}
-                              </div>
-                            )}
-                            value={state.user_ids || []}
-                            onChange={handleChange("list")("user_ids")}
-                          >
-                            {data.map((customer, index) => {
-                              return (
-                                <MenuItem
-                                  key={index}
-                                  value={customer.user_id}
-                                >{`${customer.first_name} ${customer.last_name}`}</MenuItem>
-                              );
-                            })}
-                          </Select>
-                        );
-                      }}
-                    </DataContainer>
+                    <Grid md={12} className={classes.formItems}>
+                      <DataContainer
+                        data={userList}
+                        dataFetcher={dispatchGetUserList(true)}
+                      >
+                        {data => {
+                          const selectValue = (id: string, data: User[]) => {
+                            const user = data.filter(c => c.user_id === id);
+                            return user.length > 0
+                              ? `${user[0].first_name} ${user[0].last_name}`
+                              : "";
+                          };
+                          return (
+                            <Select
+                              multiple
+                              fullWidth
+                              className={classes.select}
+                              renderValue={selected => (
+                                <div className={classes.chips}>
+                                  {(selected as string[]).map(value => (
+                                    <Chip
+                                      key={value}
+                                      label={selectValue(value, data)}
+                                      className={classes.chip}
+                                    />
+                                  ))}
+                                </div>
+                              )}
+                              value={state.user_ids || []}
+                              onChange={handleChange("list")("user_ids")}
+                            >
+                              {data.map((customer, index) => {
+                                return (
+                                  <MenuItem
+                                    key={index}
+                                    value={customer.user_id}
+                                  >{`${customer.first_name} ${customer.last_name}`}</MenuItem>
+                                );
+                              })}
+                            </Select>
+                          );
+                        }}
+                      </DataContainer>
+                    </Grid>
                     <Button
                       variant="contained"
                       color="secondary"
@@ -223,7 +238,9 @@ const ProyectsComponent: FC<Props> = ({
                   {name}
                 </TableCell>
                 <TableCell numeric>{description}</TableCell>
-                <TableCell numeric>{created_at}</TableCell>
+                <TableCell numeric>
+                  {moment(created_at).format("YYYY-MM-DD HH:mm:ss")}
+                </TableCell>
                 <TableCell numeric>{total_users}</TableCell>
               </TableRow>
             )

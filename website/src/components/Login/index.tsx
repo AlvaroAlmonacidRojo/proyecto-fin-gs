@@ -1,5 +1,4 @@
-import React, { FC } from "react";
-import { useState } from "react";
+import React, { FC, useState } from "react";
 import GoogleLogin, {
   GoogleLoginResponse,
   GoogleLoginResponseOffline
@@ -23,15 +22,14 @@ const Login: FC<{} & DispatchProps> = ({ children, setLogin }) => {
   const onSuccess = (
     response: GoogleLoginResponse | GoogleLoginResponseOffline
   ) => {
-    console.log("SUCCESS");
     setSignIn(true);
-    const r = isLoginResponse(response) ? response.profileObj.email : response;
-    console.log("EMAIL", r);
+    if (isLoginResponse(response)) {
+      localStorage.setItem("email", response.profileObj.email);
+    }
+
     setLogin(response);
   };
-  const onFailure = (error: any) => {
-    console.log("ERROR");
-  };
+  const onFailure = (error: any) => null;
   return (
     <>
       {isSignIn ? (

@@ -53,6 +53,15 @@ const styles = (theme: Theme) =>
     select: {
       minWidth: 120,
       maxWidth: 300
+    },
+    form: {
+      border: `2px solid ${theme.palette.secondary.main}`,
+      padding: "20px",
+      margin: "20px",
+      width: "50%"
+    },
+    formItems: {
+      padding: "10px"
     }
   });
 interface ComponentProps {
@@ -133,66 +142,77 @@ const UsersComponent: FC<Props> = ({
             {({ state, handleSubmit, handleChange }) => {
               return (
                 <>
-                  <Grid container>
-                    <Grid md={4}>
+                  <Grid container className={classes.form}>
+                    <Grid md={12} className={classes.formItems}>
                       <OutlinedInput
                         placeholder="Email"
                         labelWidth={0}
+                        fullWidth
                         onChange={handleChange("text")("email")}
                       />
                     </Grid>
-                    <Grid md={4}>
+                    <Grid md={12} className={classes.formItems}>
                       <OutlinedInput
                         placeholder="Nombre"
                         labelWidth={0}
                         onChange={handleChange("text")("first_name")}
                       />
                     </Grid>
-                    <Grid md={4}>
+                    <Grid md={12} className={classes.formItems}>
                       <OutlinedInput
                         placeholder="Apellidos"
                         labelWidth={0}
+                        fullWidth
                         onChange={handleChange("text")("last_name")}
                       />
                     </Grid>
-                    <DataContainer
-                      data={proyectList}
-                      dataFetcher={dispatchGetProyectList(true)}
-                    >
-                      {data => {
-                        const selectValue = (id: string, data: Proyect[]) => {
-                          const proyect = data.filter(c => c.proyect_id === id);
-                          return proyect.length > 0 ? `${proyect[0].name}` : "";
-                        };
-                        return (
-                          <Select
-                            multiple
-                            className={classes.select}
-                            renderValue={selected => (
-                              <div className={classes.chips}>
-                                {(selected as string[]).map(value => (
-                                  <Chip
-                                    key={value}
-                                    label={selectValue(value, data)}
-                                    className={classes.chip}
-                                  />
-                                ))}
-                              </div>
-                            )}
-                            value={state.proyect_ids || []}
-                            onChange={handleChange("list")("proyect_ids")}
-                          >
-                            {data.map(proyect => {
-                              return (
-                                <MenuItem
-                                  value={proyect.proyect_id}
-                                >{`${proyect.name}`}</MenuItem>
-                              );
-                            })}
-                          </Select>
-                        );
-                      }}
-                    </DataContainer>
+                    <Grid md={12} className={classes.formItems}>
+                      <DataContainer
+                        data={proyectList}
+                        dataFetcher={dispatchGetProyectList(true)}
+                      >
+                        {data => {
+                          const selectValue = (id: string, data: Proyect[]) => {
+                            const proyect = data.filter(
+                              c => c.proyect_id === id
+                            );
+                            return proyect.length > 0
+                              ? `${proyect[0].name}`
+                              : "";
+                          };
+                          return (
+                            <Select
+                              multiple
+                              fullWidth
+                              className={classes.select}
+                              placeholder="Selecciona un empleado"
+                              renderValue={selected => (
+                                <div className={classes.chips}>
+                                  {(selected as string[]).map(value => (
+                                    <Chip
+                                      key={value}
+                                      label={selectValue(value, data)}
+                                      className={classes.chip}
+                                    />
+                                  ))}
+                                </div>
+                              )}
+                              value={state.proyect_ids || []}
+                              onChange={handleChange("list")("proyect_ids")}
+                            >
+                              {data.map((proyect, index) => {
+                                return (
+                                  <MenuItem
+                                    key={index}
+                                    value={proyect.proyect_id}
+                                  >{`${proyect.name}`}</MenuItem>
+                                );
+                              })}
+                            </Select>
+                          );
+                        }}
+                      </DataContainer>
+                    </Grid>
                     <Button
                       variant="contained"
                       color="secondary"

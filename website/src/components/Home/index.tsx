@@ -81,14 +81,14 @@ const HomeComponent: FC<Props> = ({
     ? moment(fingerprint.last_fingerprint).format("HH:mm:ss")
     : "";
 
-  const time2 = !(entry === "" && exit === "")
+  const duration = !(entry === "" && exit === "")
     ? moment.duration(
         moment(fingerprint!.last_fingerprint).diff(
           moment(fingerprint!.first_fingerprint)
         )
       )
     : "";
-  const time3 = time2 === "" ? time2 : `${time2.hours()}:${time2.minutes()}`;
+  const time = duration === "" ? duration : `${duration.hours()}:${duration.minutes()}`;
   return (
     <Paper className={classes.paper}>
       <Grid container className={classes.details} alignItems="center">
@@ -140,7 +140,7 @@ const HomeComponent: FC<Props> = ({
             <Translate message="components.home.time.label" />
           </Typography>
           <Typography weight="lighter" variant="h3">
-            {time3 ? time3 : "--:--"}
+            {time ? time : "--:--"}
           </Typography>
         </Grid>
       </Grid>

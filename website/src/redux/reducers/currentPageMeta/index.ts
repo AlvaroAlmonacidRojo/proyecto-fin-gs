@@ -1,8 +1,13 @@
-import { Action } from '../../reducer';
+import { Action } from "../../reducer";
 
-export type Tab = 'Home' | 'Employees' | 'Proyects' | 'Administration' | 'Holidays';
+export type Tab =
+  | "Home"
+  | "Employees"
+  | "Proyects"
+  | "Administration"
+  | "Holidays";
 
-export const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE';
+export const SET_CURRENT_PAGE = "SET_CURRENT_PAGE";
 
 export type SET_CURRENT_PAGE = typeof SET_CURRENT_PAGE;
 
@@ -18,15 +23,15 @@ export interface CurrentPageMeta {
 export const defaultState = {};
 
 export const setCurrentPageMeta = (
-  payload: CurrentPageMeta,
+  payload: CurrentPageMeta
 ): SetCurrentPageMeta => ({
   type: SET_CURRENT_PAGE,
-  payload,
+  payload
 });
 
 const reducer = (
   state: CurrentPageMeta = defaultState,
-  { type, payload }: Actions,
+  { type, payload }: Actions
 ) => {
   switch (type) {
     case SET_CURRENT_PAGE:

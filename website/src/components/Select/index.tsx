@@ -1,54 +1,54 @@
-import { Icon } from '@material-ui/core';
+import { Icon } from "@material-ui/core";
 import {
   createStyles,
   Theme,
   withStyles,
-  WithStyles,
-} from '@material-ui/core/styles';
-import ArrowDropDown from '@material-ui/icons/ArrowDropDown';
-import React from 'react';
-import Select, { components } from 'react-select';
-import { GroupType } from 'react-select/src/types';
+  WithStyles
+} from "@material-ui/core/styles";
+import ArrowDropDown from "@material-ui/icons/ArrowDropDown";
+import React from "react";
+import Select, { components } from "react-select";
+import { GroupType } from "react-select/src/types";
 
-import { getTranslation, TranslationKey } from '../../util/translations';
-import { WithLanguage, withLanguage } from '../WithLanguage';
+import { getTranslation, TranslationKey } from "../../util/translations";
+import { WithLanguage, withLanguage } from "../WithLanguage";
 
 const styles = (theme: Theme) =>
   createStyles({
     select: {
-      width: '340px',
+      width: "340px",
       backgroundColor: theme.colors.white,
-      borderRadius: '4px',
+      borderRadius: "4px",
       fontFamily: theme.typography.fontFamily,
-      fontSize: '14px',
-      fontWeight: 'lighter',
+      fontSize: "14px",
+      fontWeight: "lighter"
     },
     selectWithError: {
-      width: '340px',
+      width: "340px",
       backgroundColor: theme.colors.white,
-      borderRadius: '4px',
+      borderRadius: "4px",
       border: `2px solid ${theme.colors.burntRed}`,
       fontFamily: '"TTNorms", "Helvetica", "Arial", sans-serif',
-      fontSize: '14px',
-      fontWeight: 'lighter',
+      fontSize: "14px",
+      fontWeight: "lighter"
     },
     selectLarge: {
-      width: '500px',
+      width: "500px",
       backgroundColor: theme.colors.white,
-      borderRadius: '4px',
+      borderRadius: "4px",
       fontFamily: theme.typography.fontFamily,
-      fontSize: '14px',
-      fontWeight: 'lighter',
+      fontSize: "14px",
+      fontWeight: "lighter"
     },
     selectLargeWithError: {
-      width: '500px',
+      width: "500px",
       backgroundColor: theme.colors.white,
-      borderRadius: '4px',
+      borderRadius: "4px",
       border: `2px solid ${theme.colors.burntRed}`,
       fontFamily: '"TTNorms", "Helvetica", "Arial", sans-serif',
-      fontSize: '14px',
-      fontWeight: 'lighter',
-    },
+      fontSize: "14px",
+      fontWeight: "lighter"
+    }
   });
 
 interface ComponentProps {
@@ -82,36 +82,36 @@ const selectStyles = (customWidth?: string) => ({
     backgroundColor: isDisabled
       ? undefined
       : isSelected
-      ? '#f8eef5'
+      ? "#f8eef5"
       : isFocused
-      ? '#f0f2f6'
+      ? "#f0f2f6"
       : undefined,
-    color: isSelected ? '#a12378' : undefined,
+    color: isSelected ? "#a12378" : undefined
   }),
   control: (provided: any, { isDisabled, isFocused, isSelected }: any) => ({
     ...provided,
     border: isDisabled,
     boxShadow: isFocused ? 0 : 0,
-    borderColor: isFocused ? '#a12378' : provided.borderColor,
-    '&:hover': {
-      borderColor: isFocused ? '#a12378' : provided.borderColor,
-    },
+    borderColor: isFocused ? "#a12378" : provided.borderColor,
+    "&:hover": {
+      borderColor: isFocused ? "#a12378" : provided.borderColor
+    }
   }),
   container: (provided: any) => ({
     ...provided,
-    width: customWidth,
+    width: customWidth
   }),
   dropdownIndicator: () => ({
-    color: '#a12378',
-    margin: '4px 4px 0 0',
+    color: "#a12378",
+    margin: "4px 4px 0 0"
   }),
   indicatorSeparator: () => ({
-    display: 'none',
+    display: "none"
   }),
   menuList: () => ({
-    maxHeight: '100px',
-    'overflow-y': 'scroll',
-  }),
+    maxHeight: "100px",
+    "overflow-y": "scroll"
+  })
 });
 
 export const SelectComponent = ({
@@ -124,7 +124,7 @@ export const SelectComponent = ({
   lang,
   isMulti = false,
   isLarge = false,
-  customWidth,
+  customWidth
 }: Props) => {
   const selectClassName = () => {
     let classNameSelect;

@@ -1,13 +1,16 @@
-import React from 'react';
-import { connect } from 'react-redux';
+import React from "react";
+import { connect } from "react-redux";
 
-import UsersComponent from '../../components/Users';
-import { DefaultState as UserListDefaultState, getUserList } from '../../redux/reducers/userList';
-import { AppState } from '../../redux/state';
-import { Dispatcher } from '../../redux/reducer';
-import actionDispatcher from '../../redux/actionDispatcher';
-import DataContainer from '../../components/DataContainer';
-import { dataSenderWithCallback } from '../../redux/reducers/dataState';
+import DataContainer from "../../components/DataContainer";
+import UsersComponent from "../../components/Users";
+import actionDispatcher from "../../redux/actionDispatcher";
+import { Dispatcher } from "../../redux/reducer";
+import { dataSenderWithCallback } from "../../redux/reducers/dataState";
+import {
+  DefaultState as UserListDefaultState,
+  getUserList
+} from "../../redux/reducers/userList";
+import { AppState } from "../../redux/state";
 
 interface StateProps {
   userList: UserListDefaultState;
@@ -15,13 +18,19 @@ interface StateProps {
 
 interface DispatchProps {
   dispatchGetUserList: (refresh: boolean) => () => void;
-  dispatchSenderAction: (url: string, method: 'POST', callback: Array<() => void>, tag: string, formData: {}) => () => void;
+  dispatchSenderAction: (
+    url: string,
+    method: "POST",
+    callback: Array<() => void>,
+    tag: string,
+    formData: {}
+  ) => () => void;
 }
 
 type Props = StateProps & DispatchProps;
 
 const mapStateToProps = (state: AppState): StateProps => ({
-  userList: state.userList,
+  userList: state.userList
 });
 
 const mapDispatchToProps = (dispatch: Dispatcher): DispatchProps => ({
@@ -32,24 +41,25 @@ const mapDispatchToProps = (dispatch: Dispatcher): DispatchProps => ({
 const InternalComponent = ({
   dispatchGetUserList,
   dispatchSenderAction,
-  userList,
+  userList
 }: Props) => {
-  const formCallBack = (formData: {}) => () =>{
-    console.log('da')
+  const formCallBack = (formData: {}) => () => {
     dispatchSenderAction(
-      '/api/users',
-      'POST',
+      "/api/users",
+      "POST",
       [dispatchGetUserList(true)],
-      '',
-      formData,
+      "",
+      formData
     )();
-  }
-  return <DataContainer
-    data={userList}
-    dataFetcher={dispatchGetUserList(true)}
-  >
-  {data => <UsersComponent users={data} formCallback={formCallBack}/>}
-  </DataContainer>;
+  };
+  return (
+    <DataContainer data={userList} dataFetcher={dispatchGetUserList(true)}>
+      {data => <UsersComponent users={data} formCallback={formCallBack} />}
+    </DataContainer>
+  );
 };
 
-export const ConnectedUsers = connect(mapStateToProps, mapDispatchToProps)(InternalComponent);
+export const ConnectedUsers = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(InternalComponent);

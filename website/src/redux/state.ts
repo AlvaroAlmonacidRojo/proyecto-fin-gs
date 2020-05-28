@@ -1,12 +1,12 @@
 import {
-    CurrentPageMeta,
-    defaultState as currentPageDefaultState,
-} from './reducers/currentPageMeta';
-import { Login, defaultState as loginDefaultState } from './reducers/login';
-import { DefaultState as UserListDefaultState } from './reducers/userList';
-import { DefaultState as ProyectListDefaultState } from './reducers/proyectList';
-import { defaultState as dataDefaultState } from './reducers/dataState';
-import { DefaultState as FingerprintDefaultState } from './reducers/fingerprintDetails';
+  CurrentPageMeta,
+  defaultState as currentPageDefaultState
+} from "./reducers/currentPageMeta";
+import { defaultState as dataDefaultState } from "./reducers/dataState";
+import { DefaultState as FingerprintDefaultState } from "./reducers/fingerprintDetails";
+import { defaultState as loginDefaultState, Login } from "./reducers/login";
+import { DefaultState as ProyectListDefaultState } from "./reducers/proyectList";
+import { DefaultState as UserListDefaultState } from "./reducers/userList";
 
 export interface AppState {
   currentPageMeta: CurrentPageMeta;
@@ -21,5 +21,5 @@ export const defaultState: AppState = {
   login: loginDefaultState,
   userList: dataDefaultState,
   proyectList: dataDefaultState,
-  fingerprintDetails: dataDefaultState,
+  fingerprintDetails: dataDefaultState
 };

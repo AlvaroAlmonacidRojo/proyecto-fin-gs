@@ -1,10 +1,9 @@
-import _ from 'lodash';
-import memoize from 'memoize-one';
-import React, { ChangeEvent, Fragment, ReactElement, useReducer } from 'react';
-import validate from 'validate.js';
+import _ from "lodash";
+import memoize from "memoize-one";
+import React, { ChangeEvent, Fragment, ReactElement, useReducer } from "react";
+import validate from "validate.js";
 
-
-export type actions = 'onChange' | 'invalidForm' | 'pending';
+export type actions = "onChange" | "invalidForm" | "pending";
 
 export type FormInput = boolean | string | undefined | string[];
 
@@ -20,31 +19,31 @@ export interface FormProps {
   validationAlerts: string[];
 }
 
-type EventType = 'select' | 'text' | 'list';
+type EventType = "select" | "text" | "list";
 
 const formReducer = <
   T extends Record<string, FormInput> & FormProps,
   K extends keyof T
 >(
   state: T,
-  { value, type, meta: { name } }: FormAction<K>,
+  { value, type, meta: { name } }: FormAction<K>
 ) => {
   switch (type) {
-    case 'onChange':
+    case "onChange":
       return {
         ...state,
         [name]: value,
-        validationAlerts: [], // reset validation alerts
+        validationAlerts: [] // reset validation alerts
       };
-    case 'invalidForm':
+    case "invalidForm":
       return {
         ...state,
-        validationAlerts: value, // reset validation alerts
+        validationAlerts: value // reset validation alerts
       };
-    case 'pending':
+    case "pending":
       return {
         ...state,
-        pending: value,
+        pending: value
       };
     default:
       throw new Error();
@@ -58,63 +57,61 @@ export function GenericForm<
   children,
   initialState,
   validations,
-  submitCallback,
+  submitCallback
 }: {
   initialState: T;
   validations: Record<K, {}>;
   submitCallback: (formData: {}) => () => void;
-  children: (
-    {
-      state,
-      handleChange,
-    }: {
-      state: T & { pending: boolean };
-      handleChange: (
-        eventType?: EventType,
-      ) => (name: K) => (event: ChangeEvent<{}>) => void;
-      handleSubmit: () => 'ok' | 'error';
-    },
-  ) => ReactElement;
+  children: ({
+    state,
+    handleChange
+  }: {
+    state: T & { pending: boolean };
+    handleChange: (
+      eventType?: EventType
+    ) => (name: K) => (event: ChangeEvent<{}>) => void;
+    handleSubmit: () => "ok" | "error";
+  }) => ReactElement;
 }) {
   const [state, dispatch] = useReducer(formReducer, initialState);
 
-  const handleSubmit = (): 'ok' | 'error' => {
-    const formValidation = validate(state, validations, { format: 'flat' });
+  const handleSubmit = (): "ok" | "error" => {
+    const formValidation = validate(state, validations, { format: "flat" });
     if (formValidation) {
       dispatch({
-        type: 'invalidForm',
+        type: "invalidForm",
         value: formValidation,
         meta: {
-          name: '',
-        },
+          name: ""
+        }
       });
-      return 'error';
+      return "error";
     } else {
       submitCallback({
         ...state,
         validationAlerts: undefined,
-        pending: undefined,
+        pending: undefined
       })();
       dispatch({
-        type: 'pending',
+        type: "pending",
         value: true,
         meta: {
-          name: '',
-        },
+          name: ""
+        }
       });
-      return 'ok';
+      return "ok";
     }
   };
 
   const selectType = (event: any, name: K, eventType?: EventType): any => {
     if (eventType) {
       switch (eventType) {
-        case 'select':
+        case "select":
           return event.value;
-        case 'text':
+        case "text":
           event.persist();
           return (event.target as HTMLInputElement).value;
-        case 'list':
+        case "list":
           event.persist();
           const value = (event.target as HTMLSelectElement).value;
           return value;
@@ -127,11 +124,11 @@ export function GenericForm<
   const handleChange = (eventType?: EventType) => (name: K) =>
     memoize((event: any) => {
       dispatch({
-        type: 'onChange',
+        type: "onChange",
         value: selectType(event, name, eventType),
         meta: {
-          name,
-        },
+          name
+        }
       });
     });
 
@@ -139,15 +136,15 @@ export function GenericForm<
     <Fragment>
       <Fragment>
         {!!(state.validationAlerts && state.validationAlerts.length) && (
-          <>{state.validationAlerts.map(
-            (message: string, index: number) => {
+          <>
+            {state.validationAlerts.map((message: string, index: number) => {
               return (
                 <div key={index}>
                   <span>{message}</span>
                 </div>
               );
-            },
-          )}</>
+            })}
+          </>
         )}
       </Fragment>
       <Fragment> {children({ state, handleChange, handleSubmit })}</Fragment>

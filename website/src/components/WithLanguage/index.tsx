@@ -1,21 +1,21 @@
-import React from 'react';
+import React from "react";
 
-import { LanguageContext } from '../Translation/context';
-import { Language } from '../../util/translations';
+import { Language } from "../../util/translations";
+import { LanguageContext } from "../Translation/context";
 
 export interface WithLanguage {
   lang?: Language;
 }
 
 export const withLanguage = <P extends WithLanguage>(
-  Component: React.ComponentType<P>,
+  Component: React.ComponentType<P>
 ): React.FC<P> => ({ ...props }) => {
   return (
     <LanguageContext.Consumer>
       {(lang: Language) => {
         const componentProps: P = {
           ...props,
-          lang,
+          lang
         };
         return <Component {...componentProps} />;
       }}

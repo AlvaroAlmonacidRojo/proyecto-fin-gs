@@ -1,4 +1,4 @@
-import 'whatwg-fetch';
+import "whatwg-fetch";
 
 export class ResponseError extends Error {
   constructor(private response: Response) {
@@ -29,34 +29,34 @@ export async function fetch(url: string, options?: RequestInit): Promise<any> {
   }
 }
 
-export type SendMethod = 'PUT' | 'POST' | 'PATCH' | 'DELETE';
+export type SendMethod = "PUT" | "POST" | "PATCH" | "DELETE";
 
 export async function sendJSON(
   url: string,
   method: SendMethod,
-  data?: {},
+  data?: {}
 ): Promise<any> {
   return fetch(url, {
     method,
-    mode: 'same-origin',
+    mode: "same-origin",
     headers: {
-      'Content-type': 'application/json',
+      "Content-type": "application/json"
     },
     body: JSON.stringify({
-      data,
-    }),
+      data
+    })
   });
 }
 
 export async function sendFile(
   url: string,
   method: SendMethod,
-  file: FormData,
+  file: FormData
 ): Promise<any> {
   const options: RequestInit = {
     method,
-    mode: 'same-origin',
-    body: file,
+    mode: "same-origin",
+    body: file
   };
 
   const response = await window.fetch(url, options);

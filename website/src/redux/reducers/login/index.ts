@@ -2,7 +2,7 @@ import { Action } from "../../reducer";
 
 export const defaultState = {};
 
-export const SET_LOGIN = 'SET_LOGIN';
+export const SET_LOGIN = "SET_LOGIN";
 
 export type SET_LOGIN = typeof SET_LOGIN;
 
@@ -10,19 +10,15 @@ export type SetLogin = Action<SET_LOGIN, Login>;
 
 type Actions = SetLogin;
 
-export type Login = {};
+// tslint:disable-next-line: no-empty-interface
+export interface Login {}
 
-export const setLogin = (
-  payload: Login,
-): SetLogin => ({
+export const setLogin = (payload: Login): SetLogin => ({
   type: SET_LOGIN,
-  payload,
+  payload
 });
 
-const reducer = (
-  state: Login = defaultState,
-  { type, payload }: Actions,
-) => {
+const reducer = (state: Login = defaultState, { type, payload }: Actions) => {
   switch (type) {
     case SET_LOGIN:
       return payload;

@@ -1,16 +1,16 @@
-import memoizeOne from 'memoize-one';
+import memoizeOne from "memoize-one";
 
-import { Dispatcher } from './reducer';
+import { Dispatcher } from "./reducer";
 
 const actionDispatcher = <
   Args extends any[],
   ActionCreator extends (...args: Args) => any
 >(
   actionCreator: ActionCreator,
-  dispatch: Dispatcher,
+  dispatch: Dispatcher
 ): ((...args: Args) => () => void) =>
   memoizeOne((...args) => () => {
-    dispatch(actionCreator(...args as Args));
+    dispatch(actionCreator(...(args as Args)));
   });
 
 export default actionDispatcher;

@@ -1,27 +1,29 @@
-import { GetProyectsResponse } from '../../../../../types/build/proyects';
+import { GetProyectsResponse } from "../../../../../types/build/proyects";
 
-import { ThunkResult } from '../../reducer';
+import { ThunkResult } from "../../reducer";
 import dataStateReducer, {
   dataFetcher,
-  DataState,
-} from '../../reducers/dataState';
+  DataState
+} from "../../reducers/dataState";
 
-export const PROYECT_LIST = 'PROYECT_LIST';
+export const PROYECT_LIST = "PROYECT_LIST";
 
 export type PROYECT_LIST = typeof PROYECT_LIST;
 
 export type ProyectList = GetProyectsResponse;
 
-export type DefaultState = DataState<ProyectList['data']>;
+export type DefaultState = DataState<ProyectList["data"]>;
 
 export type GetProyectList = ThunkResult<Promise<ProyectList>>;
 
-const defaultLink = 'api/proyects';
+const defaultLink = "api/proyects";
 
-export const getProyectList = (forceRefresh: boolean = false): GetProyectList => {
+export const getProyectList = (
+  forceRefresh: boolean = false
+): GetProyectList => {
   const url = `${defaultLink}`;
-  return dataFetcher(url, PROYECT_LIST, 'proyectList', {
-    forceRefresh,
+  return dataFetcher(url, PROYECT_LIST, "proyectList", {
+    forceRefresh
   });
 };
 

@@ -1,7 +1,7 @@
-import { FC, ReactElement } from 'react';
-import { connect } from 'react-redux';
+import { FC, ReactElement } from "react";
+import { connect } from "react-redux";
 
-export type PermissionsMode = 'all' | 'any';
+export type PermissionsMode = "all" | "any";
 
 export interface ContainerPermissions {
   mode: PermissionsMode;
@@ -14,44 +14,34 @@ interface ComponentProps {
 }
 type Props = ComponentProps;
 
-type PermissionsCheck = (
-  permissions: [],
-) => boolean;
+type PermissionsCheck = (permissions: []) => boolean;
 
-const authorizeAllCheck: PermissionsCheck = (
-  allPermissions,
-): boolean => {
+const authorizeAllCheck: PermissionsCheck = (allPermissions): boolean => {
   return false;
 };
 
-const authorizeAnyCheck: PermissionsCheck = (
-  anyPermissions,
-): boolean => {
+const authorizeAnyCheck: PermissionsCheck = (anyPermissions): boolean => {
   return false;
 };
 
 const authorizeChecks: Record<PermissionsMode, PermissionsCheck> = {
   all: authorizeAllCheck,
-  any: authorizeAnyCheck,
+  any: authorizeAnyCheck
 };
 
 const AuthorizeContainer: FC<Props> = ({
   require,
   children,
-  lockedElement = null,
+  lockedElement = null
 }) => {
   const isAuthorized = false;
 
   return isAuthorized ? children : lockedElement;
 };
 
-const ConnectedAuthorizeContainer = connect(
-  null,
-  null,
-)(AuthorizeContainer);
+const ConnectedAuthorizeContainer = connect(null, null)(AuthorizeContainer);
 
 export default ConnectedAuthorizeContainer;
 
-export const isAuth = (
-  require: ContainerPermissions,
-) => authorizeChecks[require.mode](require.permissions);
+export const isAuth = (require: ContainerPermissions) =>
+  authorizeChecks[require.mode](require.permissions);

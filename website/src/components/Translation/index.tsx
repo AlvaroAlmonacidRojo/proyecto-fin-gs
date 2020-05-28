@@ -1,8 +1,8 @@
-import React, { FC, Fragment } from 'react';
+import React, { FC, Fragment } from "react";
 
-import { getTranslation, TranslationKey } from '../../util/translations';
+import { getTranslation, TranslationKey } from "../../util/translations";
 
-import { LanguageContext } from './context';
+import { LanguageContext } from "./context";
 
 interface Props {
   message: TranslationKey;

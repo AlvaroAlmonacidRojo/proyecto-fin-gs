@@ -1,7 +1,7 @@
-import CircularProgress from '@material-ui/core/CircularProgress';
-import React, { Fragment, ReactNode, useEffect, useState } from 'react';
+import CircularProgress from "@material-ui/core/CircularProgress";
+import React, { Fragment, ReactNode, useEffect, useState } from "react";
 
-import { DataState } from '../../redux/reducers/dataState';
+import { DataState } from "../../redux/reducers/dataState";
 
 export interface GenericDataProps<T> {
   dataFetcher?: () => void;
@@ -14,25 +14,20 @@ export function GenericDataContainer<T>({
   data,
   children,
   dataFetcher,
-  loadingElement = (
-      <CircularProgress color="secondary" size={24} />
-  ),
+  loadingElement = <CircularProgress color="secondary" size={24} />
 }: GenericDataProps<T>) {
-  useEffect(
-    () => {
-      if (dataFetcher) {
-        dataFetcher();
-      }
-    },
-    [dataFetcher],
-  );
+  useEffect(() => {
+    if (dataFetcher) {
+      dataFetcher();
+    }
+  }, [dataFetcher]);
 
   const [throwError, setThrowError] = useState(false);
 
   let element: {} | null | undefined = null;
 
   switch (data.state) {
-    case 'PENDING':
+    case "PENDING":
       if (!throwError) {
         setThrowError(true);
       }
@@ -40,11 +35,11 @@ export function GenericDataContainer<T>({
       element = loadingElement;
       break;
 
-    case 'READY':
+    case "READY":
       element = children(data.data);
       break;
 
-    case 'ERROR':
+    case "ERROR":
       if (throwError) {
         throw data.error;
       }

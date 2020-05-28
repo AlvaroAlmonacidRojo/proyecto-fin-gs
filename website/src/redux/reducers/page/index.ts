@@ -1,20 +1,20 @@
-import { AnyAction, Reducer } from 'redux';
+import { AnyAction, Reducer } from "redux";
 
-import { Action } from '../../reducer';
+import { Action } from "../../reducer";
 
-export const RESET_PAGE = 'RESET_PAGE';
+export const RESET_PAGE = "RESET_PAGE";
 
 export type RESET_PAGE = typeof RESET_PAGE;
 
 export type ResetPageData = Action<RESET_PAGE, {}>;
 
 export const resetPageData = (): ResetPageData => ({
-  type: RESET_PAGE,
+  type: RESET_PAGE
 });
 
 export function pageReducer<T extends Reducer>(
   reducer: T,
-  initialState: ReturnType<typeof reducer>,
+  initialState: ReturnType<typeof reducer>
 ) {
   return ((state: ReturnType<typeof reducer>, action: AnyAction) => {
     if (action.type === RESET_PAGE) {
